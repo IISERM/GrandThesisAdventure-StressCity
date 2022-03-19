@@ -1,0 +1,14 @@
+{
+    "player": "O",
+    "viewport": [
+        61,
+        29
+    ],
+    "itemspath": "assets/items",
+    "mapspath": "assets/maps",
+    "surfacespath": "assets/surfaces",
+    "transition_time": 10,
+    "rest_energy": 2,
+    "walking_energy_cost": 0.095,
+    "help": "\n Welcome to the Turing Club treasure hunt! Open your pocket\n to find the first clue. There are 8 clues in all, and the \n answer to the one clue will point you to the location of the \n next. There are also many easter eggs spread across the vast \n areas of IISER M. Happy hunting! \n\n\n Controls: \n \n - WASD for player movement \n - Press P to open pocket \n - Press H to open this help prompt \n - Press Esc to close any window \n - Use the mouse to click any buttons \n - For a purely keyboard experience; \n use TAB to cycle through buttons and SPACE to click it. \n\n\n In case of any queries, drop a message in the WhatsApp group."
+}

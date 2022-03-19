@@ -1,0 +1,9 @@
+{
+    "name": "Teleporter",
+    "answerhash": "098f6bcd4621d373cade4e832627b4f6",
+    "desc": "This is a teleporting machine! This will take you to (10, 10). Type in 'test' to activate!",
+    "need_input": true,
+    "code_file": "assets/items/code/testitem.py",
+    "media_path": "image::assets/media/rickroll.jpg",
+    "collectable": true
+}
