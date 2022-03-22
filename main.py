@@ -1,11 +1,17 @@
 from tetra import gadgets
 from tetra import terminal
+import CustomGadgets
 
 class MyGame(terminal.Game):
     def bind_sg_events(self):
         super().bind_sg_events()
-        # Other binds here
+        self.window.bind("<KeyPress-Up>", "up")
+        self.window.bind("<KeyPress-Left>", "left")
+        self.window.bind("<KeyPress-Down>", "down")
+        self.window.bind("<KeyPress-Right>", "right")
 
-mgame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, gadgets.EnergyMeter])
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone])
+myGame.active_map = myGame.map("Just_Wait")
+# myGame.settings.viewport = [120,32]
 
-mgame.run()
+myGame.run()
