@@ -1,5 +1,5 @@
 {
-    "name" : "Ground",
-    "character" : " ",
-    "walkable" : true
+    "name": "ground",
+    "character": "$",
+    "walkable": true
 }

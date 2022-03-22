@@ -1,5 +1,5 @@
 {
-    "name" : "Grass",
-    "character" : "╒",
-    "walkable" : false
+    "name": "grass",
+    "character": "░",
+    "walkable": true
 }
