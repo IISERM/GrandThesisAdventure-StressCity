@@ -7,7 +7,7 @@ class StressMeter(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Stress Meter")
         self.val = 25
-        self.stress_rate_per_iteration = 0.0001
+        self.stress_rate_per_iteration = 0.001
         self.isBroken = False
 
     def stress_saying(self):
@@ -36,14 +36,16 @@ class StressMeter(gadgets.Gadget):
         else:
             game.window[self.name.lower()].UpdateBar(self.val)
 
-# class Phone(gadgets.Gadget):
-#     def __init__(self, game):
-#         super().__init__("Phone")
-#         self.notificationsActive = False
+class Phone(gadgets.Gadget):
+    def __init__(self, game):
+        super().__init__("Phone")
+        self.notificationsActive = False
 
-#     def render_content(self):
-#         return sg.Button("Phone")
+    def render_content(self):
+        return sg.Button("Phone", key = "OPEN-PHONE")
         
-#     # def update(self, game, event):
-#     #     if self.notificationsActive:
-#     #         helpers.play_media()
+    def update(self, game, event):
+        if event == "OPEN-PHONE":
+            sg.popup_no_buttons("This should display an image", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+        if self.notificationsActive and random.random()<0.3:
+            sg.popup_no_buttons("I should check my phone, if there's a message from the PhD guy...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)

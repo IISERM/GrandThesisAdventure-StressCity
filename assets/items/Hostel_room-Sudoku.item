@@ -1,0 +1,8 @@
+{
+    "name": "The challenge",
+    "desc": "If I solve this challenge soon enough, I might find my guide in their AB office.",
+    "need_input": false,
+    "code_file": "",
+    "media_path": "pdf::assets/images/Facts/Sudoku.pdf",
+    "collectable": true
+}

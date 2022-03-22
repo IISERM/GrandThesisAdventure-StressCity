@@ -3,7 +3,6 @@
     "answerhash": "d8a48e3f0e1322d53d401e3dcb3360db",
     "desc": "You found a pair of abibas shoes! You can now walk on grass. Type in 'shoe' to activate!",
     "need_input": true,
-    "code_file": "assets/items/code/testitem2.py",
-    "media_path": "link::https://youtu.be/yoZy2E17-50?t=49",
+    "code_file": "assets/items/code/H5Study-Shoe.py",
     "collectable": true
 }

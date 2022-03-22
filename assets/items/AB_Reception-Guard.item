@@ -1,0 +1,8 @@
+{
+    "name": "The Guard",
+    "answerhash": "39e3718e0f50a7e611d837d9885bf4af",
+    "desc": "Guard: We are having noise sensitive experiments today, no body is allowed here. A professor said that a student would be coming to meet him. If you tell me his office number, I will take you there.",
+    "need_input": true,
+    "code_file": "assets/items/code/AB_Reception-Guard.py",
+    "collectable": true
+}

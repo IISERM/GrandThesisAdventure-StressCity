@@ -1,5 +1,5 @@
 {
-    "name": "Biswas_Office",
+    "name": "Biswas Office",
     "raw": "▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 ▉               ▉
 ▉               |
@@ -15,5 +15,10 @@
 ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉",
     "init_pos": [3,14],
     "exits": {"3,18" : ["AB1_AB2",[78,158]]},
-    "items": {}
+    "items": {
+        "Busy Biswas": [6, 16],
+        "Biswas Elated": [6, 17],
+        "CV": [7, 12]
+    },
+    "items_on_startup": ["Busy Biswas"]
 }
