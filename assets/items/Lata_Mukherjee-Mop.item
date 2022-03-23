@@ -1,0 +1,7 @@
+{
+    "name": "Mop",
+    "desc": "This mop is precisely what I need",
+    "need_input": false,
+    "code_file": "assets/items/code/Lata_Mukherjee-Mop.py",
+    "collectable": true
+}

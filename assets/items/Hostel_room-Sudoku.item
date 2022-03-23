@@ -1,8 +1,7 @@
 {
-    "name": "The challenge",
-    "desc": "If I solve this challenge soon enough, I might find my guide in their AB office.",
+    "name": "SuDoKu",
+    "desc": "A letter from a mysterious professor, this could be the start of an adventure",
     "need_input": false,
-    "code_file": "",
     "media_path": "pdf::assets/images/Facts/Sudoku.pdf",
     "collectable": true
 }

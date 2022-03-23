@@ -67,7 +67,7 @@
     "init_pos": [60,151],
     "exits": {"63,151" : ["Hostels",[2,788]],
               "0,148" : ["Community_Center",[59,172]],
-              "48,64" : ["Lata_Mukherjee",[2,36]]
+              "48,64" : ["Lata Mukherjee's Shop",[2,36]]
 },
     "items": {}
 }

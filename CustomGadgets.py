@@ -40,12 +40,22 @@ class Phone(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Phone")
         self.notificationsActive = False
+        self.messageFromFriend = True
 
     def render_content(self):
         return sg.Button("Phone", key = "OPEN-PHONE")
         
     def update(self, game, event):
+        count = 0
         if event == "OPEN-PHONE":
-            sg.popup_no_buttons("This should display an image", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
-        if self.notificationsActive and random.random()<0.3:
+            if not self.messageFromFriend:
+                sg.popup_no_buttons("This should display an image", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+            else:
+                pass
+            
+        if self.notificationsActive and random.random()<0.6 :
             sg.popup_no_buttons("I should check my phone, if there's a message from the PhD guy...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+            count += 1
+        if self.notificationsActive and count == 10:
+            sg.popup_no_buttons("There's something on my phone", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+            game.map("CAF").place_item("X Marks The Spot!", game)

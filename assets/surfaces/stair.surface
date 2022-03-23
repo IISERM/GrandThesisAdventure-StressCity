@@ -1,0 +1,5 @@
+{
+    "name" : "Fence",
+    "character" : "▞",
+    "walkable" : true
+}
