@@ -1,0 +1,5 @@
+{
+	"name": "Transition_left",
+	"character": "←",
+	"walkable": true
+}
