@@ -4,6 +4,6 @@
     "desc": "Click 'Show Media' to know an interesting fact.",
     "need_input": false,
     "code_file": "assets/items/code/Fact11.py",
-    "media_path": "image::assets/images/facts/11.png",
+    "media_path": "image::assets/facts/11.png",
     "collectable": true
 }
