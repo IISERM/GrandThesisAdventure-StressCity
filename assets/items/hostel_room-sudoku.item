@@ -2,6 +2,6 @@
     "name": "SuDoKu",
     "desc": "A letter from a mysterious professor, this could be the start of an adventure",
     "need_input": false,
-    "media_path": "pdf::assets/images/Facts/Sudoku.pdf",
+    "media_path": "pdf::assets/images/sudoku.pdf",
     "collectable": true
 }
