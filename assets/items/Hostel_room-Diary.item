@@ -2,6 +2,6 @@
     "name": "Dear Diary,",
     "desc": "Here's another rant about a day in my sad life. Why did I even choose BS-MS? My relatives still don't know what it is. Even I don't know what it is. Upon that, I don't have a thesis guide. A prospective guide has given me this weird challenge to solve. Life is indeed a difficult proposition.",
     "need_input": false,
-    "media_path": "image::assets/media/Facts/1.png",
+    "media_path": "image::assets/media/facts/1.png",
     "collectable": false
 }
