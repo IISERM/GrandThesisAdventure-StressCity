@@ -10,7 +10,7 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Down>", "down")
         self.window.bind("<KeyPress-Right>", "right")
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", "CAF", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone])
-myGame.map("CAF").place_item("X Marks The Spot!", myGame)
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Hostels")
+# myGame.map("CAF").place_item("X Marks The Spot!", myGame)
 
 myGame.run()
