@@ -127,12 +127,12 @@
 		"0,164" : ["Community_centre",[60,183]],
 		"0,165" : ["Community_centre",[60,184]],
 
-		"48,62" : ["Lata_Mukherjee",[2,36]],
-		"48,63" : ["Lata_Mukherjee",[2,36]],
-		"48,64" : ["Lata_Mukherjee",[2,36]],
-		"48,65" : ["Lata_Mukherjee",[2,36]],
-		"48,66" : ["Lata_Mukherjee",[2,36]],
-		"48,67" : ["Lata_Mukherjee",[2,36]]
+		"48,62" : ["Lata Mukherjee",[2,36]],
+		"48,63" : ["Lata Mukherjee",[2,36]],
+		"48,64" : ["Lata Mukherjee",[2,36]],
+		"48,65" : ["Lata Mukherjee",[2,36]],
+		"48,66" : ["Lata Mukherjee",[2,36]],
+		"48,67" : ["Lata Mukherjee",[2,36]]
 },
     "items": {}
 }
