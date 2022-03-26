@@ -3,7 +3,7 @@
     "answerhash": "random",
     "desc": "Click 'Show Media' to know an interesting fact.",
     "need_input": false,
-    "code_file": "assets/items/code/fact12.py",
-    "media_path": "image::assets/images/Facts/1.png",
+    "code_file": "assets/items/code/Fact12.py",
+    "media_path": "image::assets/images/facts/12.png",
     "collectable": true
 }
