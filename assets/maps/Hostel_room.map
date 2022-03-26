@@ -1,5 +1,5 @@
 {
-    "name": "Hostel_room",
+    "name": "Hostel Room",
     "raw": "▉▉▉▉▉▉▉▉▉▉▉▁▁▁▁▉▉▉
 ▉                ▉
 ▉ ▃▃▃▃▃          ▉
@@ -19,5 +19,10 @@
         "8,15" : ["Hostels",[178,137]],
         "8,16" : ["Hostels",[178,137]]
 },
-    "items": {}
+    "items": {
+        "Dear Diary,": [3, 13],
+        "SuDoKu": [4, 13],
+        "ID Card": [3, 7],
+        "Laptop": [5, 7]
+    }
 }

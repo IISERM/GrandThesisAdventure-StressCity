@@ -93,5 +93,9 @@
 		"0,113" : ["Hostels",[278,850]],
 		"0,114" : ["Hostels",[278,853]]
 	 },
-    "items": {}
+    "items": {
+        "X Marks The Spot!": [36, 83],
+        "X Marks The Spot": [35, 83]
+    },
+    "items_on_startup": ["X Marks The Spot!"]
 }
