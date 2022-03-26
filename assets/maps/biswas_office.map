@@ -1,10 +1,10 @@
 {
-    "name": "Biswas Office",
+    "name": "Biswas_Office",
     "raw": "▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 ▉               ▉
-▉               |
-▉              ʘ|
-▉        ▉▉▉       |
+▉              →|
+▉              →|
+▉        ▉▉▉      →|
 ▉        ▉▉▉   ▉   ▉
 ▉        ▉▉▉  ▉▉   ▉
 ▉        ▉▉▉   ▉   ▉
@@ -14,11 +14,9 @@
 ▉               ▉
 ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉",
     "init_pos": [3,14],
-    "exits": {"3,18" : ["AB1_AB2",[78,158]]},
-    "items": {
-        "Busy Biswas": [6, 16],
-        "Biswas Elated": [6, 17],
-        "CV": [7, 12]
-    },
-    "items_on_startup": ["Busy Biswas"]
+    "exits": {"2,18" : ["AB_Reception",[4,8]],
+	      "3,18" : ["AB_Reception",[4,8]],
+	      "4,18" : ["AB_Reception",[4,8]]
+},
+    "items": {}
 }
