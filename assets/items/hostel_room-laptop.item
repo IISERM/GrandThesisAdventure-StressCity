@@ -1,0 +1,7 @@
+{
+    "name": "Laptop",
+    "desc": "The laptop is running",
+    "need_input": false,
+    "media_path": "image::assets/media/laptop.jpeg",
+    "collectable": true
+}

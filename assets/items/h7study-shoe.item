@@ -1,0 +1,8 @@
+{
+    "name": "Shoe",
+    "answerhash": "d8a48e3f0e1322d53d401e3dcb3360db",
+    "desc": "You found a pair of abibas shoes! You can now walk on grass. Type in 'shoe' to activate!",
+    "need_input": true,
+    "code_file": "assets/items/code/h5study-shoe.py",
+    "collectable": true
+}

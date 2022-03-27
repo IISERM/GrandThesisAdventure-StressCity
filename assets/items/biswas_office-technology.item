@@ -1,0 +1,9 @@
+{
+    "name": "Busy Biswas",
+    "answerhash": "9abfc3fa0a586782b875ee02ad45dcd8",
+    "desc": "Biswas: Oh you are here. See, I am very busy right now. I have forgotten the name of this technology I am using for my next experiment. I had hidden it's name in a media file and written the following clue, just in case I forget. Now, I can't crack the clue. If you help me, I might consider.",
+    "need_input": true,
+    "code_file": "assets/items/code/biswas_office-technology.py",
+    "media_path": "mp3::assets/media/audio.mp3",
+    "collectable": false
+}

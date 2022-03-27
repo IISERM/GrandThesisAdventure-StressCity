@@ -1,8 +1,0 @@
-{
-    "name": "Pay",
-    "answerhash": "c94a99df03c7d02bc69f7f40f0cd39e5",
-    "desc": "बेटा, मेरा Paytm काम नहीं कर रहा है, BHIM UPI पर पे कर दो|",
-    "need_input": true,
-    "code_file": "assets/items/code/Lata_Mukherjee-Pay.py",
-    "collectable": false
-}

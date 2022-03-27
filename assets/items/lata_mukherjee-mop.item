@@ -1,0 +1,6 @@
+{
+    "name": "Mop",
+    "desc": "This mop is precisely what I need",
+    "need_input": false,
+    "collectable": false 
+}

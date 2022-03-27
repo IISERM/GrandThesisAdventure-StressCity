@@ -1,7 +1,0 @@
-{
-    "name": "Find PhD",
-    "desc": "Go and find my PhD student. Only a grammar nazi can find him",
-    "need_input": false,
-    "code_file": "assets/items/code/Biswas_Office-Facts.py",
-    "collectable": false
-}

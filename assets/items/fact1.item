@@ -2,7 +2,7 @@
     "name": "Fact1",
     "desc": "Click 'Play Media' to know an interesting fact.",
     "need_input": false,
-    "media_path": "image::assets/media/Facts/1.png",
+    "media_path": "image::assets/media/facts/1.png",
     "code_file": "assets/items/code/fact1.py",
     "collectable": false
 }
