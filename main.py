@@ -1,3 +1,6 @@
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
 from tetra import gadgets
 from tetra import terminal
 import CustomGadgets
