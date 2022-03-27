@@ -2,6 +2,6 @@
     "name": "Biswas Elated",
     "desc": "Biswas: Hmm, I am happy with your work. I will consider. Leave your CV on the desk behind me.",
     "need_input": false,
-    "code_file": "assets/items/code/Biswas_Office-Biswas Elated.py",
+    "code_file": "assets/items/code/biswas_office-biswas elated.py",
     "collectable": false
 }
