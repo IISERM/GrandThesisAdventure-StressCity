@@ -1,5 +1,5 @@
 {
     "name" : "Path1_Horz",
     "character" : "┈",
-    "walkable" : true
+    "walkable" : false
 }

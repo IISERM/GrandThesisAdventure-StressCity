@@ -14,9 +14,9 @@
 ▉               ▉
 ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉",
     "init_pos": [3,14],
-    "exits": {"2,18" : ["AB_Reception",[4,8]],
-	      "3,18" : ["AB_Reception",[4,8]],
-	      "4,18" : ["AB_Reception",[4,8]]
+    "exits": {"2,18" : ["AB Reception",[4,8]],
+	      "3,18" : ["AB Reception",[4,8]],
+	      "4,18" : ["AB Reception",[4,8]]
     },
     "items": {
         "Busy Biswas": [6, 16],
