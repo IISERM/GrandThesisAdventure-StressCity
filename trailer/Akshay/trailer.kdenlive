@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="C" producer="main_bin" version="7.5.0" root="C:/Users/saksh/Documents/code-repo/Projects/GrandThesisAdventure-StressCity/trailer/Akshay">
+<mlt LC_NUMERIC="C" producer="main_bin" version="7.4.0" root="/home/dhruva/Programs/Python/GrandThesisAdventure-StressCity/trailer/Akshay">
  <profile frame_rate_num="25" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
  <producer id="producer0" in="00:00:00.000" out="00:00:11.680">
   <property name="length">293</property>
@@ -697,7 +697,7 @@ Website: iiserm.github.io/GTA-Stress-City&lt;/content>
   &lt;position x="1600" y="860">
    &lt;transform zoom="10">0.1,0,0,0,0.1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content url="C:/Users/saksh/Documents/code-repo/Projects/GrandThesisAdventure-StressCity/trailer/Akshay/Turing.png"/>
+  &lt;content url="/home/dhruva/Programs/Python/GrandThesisAdventure-StressCity/trailer/Akshay/Turing.png"/>
  &lt;/item>
  &lt;item type="QGraphicsTextItem" z-index="0">
   &lt;position x="272" y="174">
@@ -875,7 +875,7 @@ been there at some point, and are here to help.&lt;/content>&#xd;&#xd;&#xd;
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.12.3</property>
-  <property name="kdenlive:docproperties.position">1856</property>
+  <property name="kdenlive:docproperties.position">2347</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
@@ -885,7 +885,7 @@ been there at some point, and are here to help.&lt;/content>&#xd;&#xd;&#xd;
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams"/>
   <property name="kdenlive:docproperties.proxyresize">640</property>
-  <property name="kdenlive:docproperties.renderaudioquality">192</property>
+  <property name="kdenlive:docproperties.renderaudioquality">256</property>
   <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
   <property name="kdenlive:docproperties.renderendguide">-1</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
@@ -893,20 +893,20 @@ been there at some point, and are here to help.&lt;/content>&#xd;&#xd;&#xd;
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
-  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderquality">15</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
-  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescale">1</property>
   <property name="kdenlive:docproperties.renderrescaleheight">534</property>
   <property name="kdenlive:docproperties.renderrescalewidth">950</property>
   <property name="kdenlive:docproperties.renderscanning">0</property>
-  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderspeed">3</property>
   <property name="kdenlive:docproperties.renderstartguide">-1</property>
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">C:/Users/saksh/Downloads/trailer.mp4</property>
   <property name="kdenlive:docproperties.renderzone">0</property>
-  <property name="kdenlive:docproperties.scrollPos">5101</property>
+  <property name="kdenlive:docproperties.scrollPos">3220</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1.04</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>

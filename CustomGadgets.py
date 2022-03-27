@@ -1,7 +1,6 @@
 from tetra import gadgets
 import PySimpleGUI as sg
 import random
-from tetra import helpers
 
 class StressMeter(gadgets.Gadget):
     def __init__(self, game):
