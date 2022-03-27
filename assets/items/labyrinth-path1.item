@@ -1,9 +1,9 @@
 {
     "name": "Terminal 1",
-    "answerhash": "098f6bcd4621d373cade4e832627b4f6",
-    "desc": "Terminal 1; Enter password to open side entrance.",
+    "answerhash": "d5cfbc9179a7f4e999a86d20bd0ef465",
+    "desc": "Only META thoughts will find what the image hides behind.",
     "need_input": true,
-    "code_file": "assets/items/code/path1.py",
-    "media_path": "image::assets/media/rickroll.jpg",
+    "code_file": "assets/items/code/labyrinth-path1.py",
+    "media_path": "link::https://iiserm.github.io/GTA-Stress-City/LS1kdhgh/Image.jpg",
     "collectable": false
 }

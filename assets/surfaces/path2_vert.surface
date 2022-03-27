@@ -1,5 +1,5 @@
 {
     "name" : "Path2_Vert",
     "character" : "┇",
-    "walkable" : true
+    "walkable" : false
 }

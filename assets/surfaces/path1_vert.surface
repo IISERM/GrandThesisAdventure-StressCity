@@ -1,5 +1,5 @@
 {
     "name" : "Path1_Vert",
     "character" : "┊",
-    "walkable" : true
+    "walkable" : false
 }
