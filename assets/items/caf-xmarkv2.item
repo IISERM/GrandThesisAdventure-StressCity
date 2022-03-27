@@ -1,5 +1,6 @@
 {
     "name": "X Marks The Spot",
+    "char": "X",
     "answerhash": "657f8b8da628ef83cf69101b6817150a",
     "desc": "Click 'Show Media' to know an interesting fact.",
     "need_input": true,
