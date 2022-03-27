@@ -1,10 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="C" producer="main_bin" version="7.5.0" root="C:/Users/saksh/Videos/Trailer">
+<mlt LC_NUMERIC="C" producer="main_bin" version="7.4.0" root="/home/dhruva/Programs/Python/GrandThesisAdventure-StressCity/trailer/Akshay">
  <profile frame_rate_num="25" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
  <producer id="producer0" in="00:00:00.000" out="00:00:11.680">
   <property name="length">293</property>
   <property name="eof">pause</property>
   <property name="resource">zoom_out_intro.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -37,10 +41,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -58,39 +58,46 @@
   <property name="kdenlive:file_hash">7310b583a158f1953d569be5a5002064</property>
   <property name="kdenlive:audio_max1">1</property>
  </producer>
- <producer id="producer1" in="00:00:00.000" out="00:02:45.000">
-  <property name="length">4126</property>
+ <producer id="producer1" in="00:00:00.000" out="00:02:44.960">
+  <property name="length">4125</property>
   <property name="eof">pause</property>
-  <property name="resource">Grieg - In the Hall of the Mountain King - Igor Manasherov, Moscow Philharmonic Orchestra.mp3</property>
+  <property name="resource">Grieg - In the Hall of the Mountain King - Igor Manasherov, Moscow Philharmonic Orchestra [vQ4gb6BMTfU].m4a</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">fltp</property>
   <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">mp3float</property>
-  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.encoder.markup">Lavc59.7.</property>
-  <property name="meta.attr.major_brand.markup">dash</property>
-  <property name="meta.attr.minor_version.markup">0</property>
-  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf59.5.100</property>
+  <property name="meta.media.0.codec.channels">6</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">386302</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf59.16.100</property>
   <property name="seekable">1</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:clipname">Grieg.m4a</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">Grieg - In the Hall of the Mountain King - Igor Manasherov, Moscow Philharmonic Orchestra [vQ4gb6BMTfU].m4a</property>
   <property name="kdenlive:id">3</property>
-  <property name="kdenlive:file_size">2640905</property>
-  <property name="kdenlive:file_hash">24800937504c5510d54516e5bf9dfba3</property>
-  <property name="kdenlive:audio_max0">226</property>
+  <property name="kdenlive:file_size">7998977</property>
+  <property name="kdenlive:file_hash">1888470ce6ee7476001a72c81006d93e</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:audio_max0">193</property>
  </producer>
  <producer id="producer2" in="00:00:00.000" out="00:00:09.560">
   <property name="length">240</property>
   <property name="eof">pause</property>
   <property name="resource">shoes.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -123,10 +130,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -137,7 +140,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:id">4</property>
   <property name="kdenlive:file_size">873111</property>
   <property name="kdenlive:file_hash">ec2ba339de5ba3c3a2ac2d5b7fb8ca50</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -148,6 +151,10 @@
   <property name="length">312</property>
   <property name="eof">pause</property>
   <property name="resource">panic_run.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -180,10 +187,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -194,7 +197,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:id">5</property>
   <property name="kdenlive:file_size">2468186</property>
   <property name="kdenlive:file_hash">6df9b00d5ef0cc1db9e7d3d52e0d207f</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -205,6 +208,10 @@
   <property name="length">550</property>
   <property name="eof">pause</property>
   <property name="resource">panic_circle.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -237,10 +244,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -251,7 +254,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:id">6</property>
   <property name="kdenlive:file_size">2113535</property>
   <property name="kdenlive:file_hash">97290ec0c28c2e492712a23247ce9c5a</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -262,6 +265,10 @@
   <property name="length">145</property>
   <property name="eof">pause</property>
   <property name="resource">run_up.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -294,10 +301,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -308,7 +311,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">8</property>
+  <property name="kdenlive:id">7</property>
   <property name="kdenlive:file_size">937403</property>
   <property name="kdenlive:file_hash">68f6a9b7ae4be4a398a45977fe096a2c</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -318,7 +321,11 @@
  <producer id="producer6" in="00:00:00.000" out="00:00:18.840">
   <property name="length">472</property>
   <property name="eof">pause</property>
-  <property name="resource">stress_meter.mp4</property>
+  <property name="resource">unused footage/stress_meter.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -351,10 +358,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -365,7 +368,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">9</property>
+  <property name="kdenlive:id">8</property>
   <property name="kdenlive:file_size">1582245</property>
   <property name="kdenlive:file_hash">3d62c2f23e8abf550463590296d0cd1c</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -376,6 +379,10 @@
   <property name="length">548</property>
   <property name="eof">pause</property>
   <property name="resource">stress_meter_2.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -408,10 +415,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -422,7 +425,7 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="kdenlive:file_size">2079437</property>
   <property name="kdenlive:file_hash">5def13a02f93548d385ec2600efcf93f</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -433,6 +436,10 @@
   <property name="length">283</property>
   <property name="eof">pause</property>
   <property name="resource">chill_pill.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -465,10 +472,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">60</property>
@@ -479,15 +482,15 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:id">10</property>
   <property name="kdenlive:file_size">923973</property>
   <property name="kdenlive:file_hash">f9df65c2e6da14d3bac94e3ef493cbf6</property>
   <property name="kdenlive:audio_max1">1</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer9" in="00:00:00.000" out="00:00:06.920">
-  <property name="length">174</property>
+ <producer id="producer9" in="00:00:00.000" out="00:00:10.680">
+  <property name="length">268</property>
   <property name="eof">pause</property>
   <property name="resource">reveal.jpg</property>
   <property name="ttl">25</property>
@@ -500,127 +503,9 @@
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:duration">00:00:05.000</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:id">11</property>
   <property name="kdenlive:file_size">620606</property>
   <property name="kdenlive:file_hash">207c54d5c9895a7cb8b1d0eb990db2e8</property>
- </producer>
- <producer id="producer10" in="00:00:00.000" out="00:00:05.920">
-  <property name="length">149</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Explore the ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="40" y="886">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="134" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="1" font-weight="50" box-width="594" font-color="255,255,255,255">Explore the monospaced
-roads of IISER M..&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">14</property>
-  <property name="kdenlive:file_hash">d63bb2a789014dbad5bcb2bad6eb2293</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer11" in="00:00:00.000" out="00:00:08.040">
-  <property name="length">202</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">In search of...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="40" y="886">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="134" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="1" font-weight="50" box-width="891" font-color="255,255,255,255">Jumping through hoops, in search 
-of a thesis advisor..&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">15</property>
-  <property name="kdenlive:file_hash">ea79ea14b4021ce3af802bbd899e456d</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer12" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Will you mai...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="40" y="70">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="67" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="2" font-weight="50" box-width="810" font-color="255,255,255,255">Will you maintain your sanity?&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">16</property>
-  <property name="kdenlive:file_hash">991f99c88d0b794301317fd052613c25</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer13" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Or will the ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="1026" y="976">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="67" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="2" font-weight="50" box-width="837" font-color="255,255,255,255">Or will the stress get to you??&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">17</property>
-  <property name="kdenlive:file_hash">c2327fa5bcef5961ed36afb4887e3110</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
  </producer>
  <producer id="producer14" in="00:00:00.000" out="00:00:09.600">
   <property name="length">241</property>
@@ -647,14 +532,156 @@ You're stressed.&lt;/content>
 &lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:id">12</property>
   <property name="kdenlive:file_hash">23119a62524506808cc19399327d4576</property>
   <property name="force_reload">0</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="producer15" in="00:00:00.000" out="00:00:07.600">
-  <property name="length">191</property>
+ <producer id="producer10" in="00:00:00.000" out="00:00:05.920">
+  <property name="length">149</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Explore the ...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="100" y="900">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="132" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="-4" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="1" font-weight="63" font-outline="0" box-width="642.813" font-color="224,27,36,255">Explore the monospaced
+roads of IISER M...&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsRectItem" z-index="0">
+  &lt;position x="100" y="900">
+   &lt;transform zoom="100">1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content brushcolor="0,0,0,132" pencolor="0,0,0,255" penwidth="0" rect="0,0,657.567,131.023"/>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:file_hash">d63bb2a789014dbad5bcb2bad6eb2293</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer11" in="00:00:00.000" out="00:00:08.040">
+  <property name="length">202</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">In search of...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="40" y="886">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="132" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="1" font-weight="50" font-outline="0" box-width="898.219" font-color="224,27,36,255">Jumping through hoops, in search 
+of a thesis advisor..&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsRectItem" z-index="0">
+  &lt;position x="40" y="880">
+   &lt;transform zoom="100">1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content brushcolor="0,0,0,132" pencolor="0,0,0,255" penwidth="0" rect="0,0,917.141,149.146"/>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">14</property>
+  <property name="kdenlive:file_hash">ea79ea14b4021ce3af802bbd899e456d</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer12" in="00:00:00.000" out="00:00:06.720">
+  <property name="length">169</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Will you mai...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="40" y="70">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="67" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="2" font-weight="50" font-outline="0" box-width="816.563" font-color="192,97,203,255">Will you maintain your sanity?&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsRectItem" z-index="0">
+  &lt;position x="20" y="60">
+   &lt;transform zoom="100">1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content brushcolor="0,0,0,132" pencolor="0,0,0,255" penwidth="0" rect="0,0,841.733,91.1195"/>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">15</property>
+  <property name="kdenlive:file_hash">991f99c88d0b794301317fd052613c25</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer13" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Or will the ...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="640" y="940">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="75" font="FiraCode Nerd Font" letter-spacing="-6" font-pixel-size="60" font-italic="0" typewriter="0;1;1;0;0" alignment="2" font-weight="63" box-width="958.578" font-color="245,194,17,255">Or will the stress get to you??&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsRectItem" z-index="0">
+  &lt;position x="620" y="920">
+   &lt;transform zoom="100">1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content brushcolor="0,0,0,132" pencolor="0,0,0,255" penwidth="0" rect="0,0,1000,100"/>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">16</property>
+  <property name="kdenlive:file_hash">c2327fa5bcef5961ed36afb4887e3110</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer15" in="00:00:00.000" out="00:00:16.160">
+  <property name="length">405</property>
   <property name="eof">pause</property>
   <property name="resource"/>
   <property name="progressive">1</property>
@@ -664,20 +691,42 @@ You're stressed.&lt;/content>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Coming soon ...</property>
   <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="406" y="401">
+ &lt;item type="QGraphicsTextItem" z-index="6">
+  &lt;position x="820" y="280">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content shadow="0;#64000000;3;3;3" font-underline="0" box-height="670" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="54" font-italic="0" typewriter="1;1;1;0;0" alignment="2" font-weight="50" box-width="1452" font-color="255,255,255,255">
-
-Coming soon to computers near you.          
-
-
-
-
-- Brought to you by
-The Turing Club
-&lt;/content>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="48" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="38" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="50" font-outline="0" box-width="23.375" font-color="224,27,36,255">*&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="5">
+  &lt;position x="200" y="920">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="38" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="30" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="50" font-outline="0" box-width="295.25" font-color="224,27,36,255">*Yes, even linux&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="4">
+  &lt;position x="520" y="680">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="86" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="35" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="50" box-width="882.781" font-color="98,160,234,255">Registration: bit.ly/TuringHunt
+Website: iiserm.github.io/GTA-Stress-City&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="3">
+  &lt;position x="581" y="500">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="70" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="56" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="50" box-width="757.969" font-color="51,209,122,255">April 1st, 9PM onwards&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsPixmapItem" z-index="2">
+  &lt;position x="1600" y="860">
+   &lt;transform zoom="10">0.1,0,0,0,0.1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content url="/home/dhruva/Programs/Python/GrandThesisAdventure-StressCity/trailer/Dhruva/Turing.png"/>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="271" y="300">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="87" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="70" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="50" box-width="1378" font-color="224,27,36,255">Coming to all computers near you&lt;/content>
  &lt;/item>
  &lt;startviewport rect="0,0,1920,1080"/>
  &lt;endviewport rect="0,0,1920,1080"/>
@@ -685,8 +734,149 @@ The Turing Club
 &lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">18</property>
+  <property name="kdenlive:id">17</property>
   <property name="kdenlive:file_hash">8bc81b3901f39ff6f373c5231568889a</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer16" in="00:00:00.000" out="00:02:41.280">
+  <property name="length">4033</property>
+  <property name="eof">pause</property>
+  <property name="resource">Grieg - Peer Gynt Suite No. 1, 'In the Hall of the Mountain King' [4nMUr8Rt2AI].m4a</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">127999</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf59.16.100</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">18</property>
+  <property name="kdenlive:file_size">2609620</property>
+  <property name="kdenlive:file_hash">90a81a83685c398c7f370740a978f015</property>
+  <property name="kdenlive:audio_max0">242</property>
+ </producer>
+ <producer id="producer17" in="00:00:00.000" out="00:00:05.400">
+  <property name="length">136</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Bring upto 4...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="314" y="325">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="430" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="70" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="50" font-outline="0" box-width="1291.88" font-color="255,255,255,255">Bring upto 4 of your friends
+to fight this stress fest.
+
+If you don't have friends, 
+turn up and we'll provide some&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_hash">080be5adcbe5e40033732233388a22bc</property>
+  <property name="kdenlive:id">19</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer18" in="00:00:00.000" out="00:00:06.240">
+  <property name="length">157</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">The story, a...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="-1">
+  &lt;position x="180" y="248">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="572" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="42" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="50" font-outline="0" box-width="1524.78" font-color="255,255,255,255">The story, all names, characters, and incidents
+portrayed in this production are fictitious.
+No identification with actual persons (living or deceased),
+places, buildings, and products is 
+intended or should be inferred (no, really). 
+No person or entity associated with this film 
+received payment or anything of value, or entered 
+into any agreement, in connection with the 
+depiction of tobacco products (that we know of).
+No animals were harmed in the making of this game,
+except that one dog had its photo taken without consent.&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">20</property>
+  <property name="kdenlive:file_hash">4729436a0890ae06563a95db3978590b</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer19" in="00:00:00.000" out="00:00:11.080">
+  <property name="length">278</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Poor mental ...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="198" y="280">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="520" font-outline-color="0,0,0,255" font="FiraCode Nerd Font" letter-spacing="0" font-pixel-size="42" font-italic="0" typewriter="0;2;1;0;0" alignment="1" font-weight="50" font-outline="0" box-width="1524.78" font-color="255,255,255,255">Poor mental health and anxiety are a serious issue in most
+academic and professional scenarios. While it certainly
+helps to know you are not alone, there are multiple
+sources of help, both online and offline. You can contact
+on campus councellors, faculty, friends or family whenever
+you feel down. There are also free helpline numbers such as
+AASRA, Live Love Laugh Foundation, iCALL, NAMI, NIMH and a
+multitude of others just a websearch away. Please, please
+feel free to seek help from anyone you feel like. We're all
+here for you.&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">21</property>
+  <property name="kdenlive:file_hash">3a56dd3aa8d96f5ff88087278fe1ca7e</property>
   <property name="force_reload">0</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
@@ -703,8 +893,11 @@ The Turing Club
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.groups">[
+]
+</property>
   <property name="kdenlive:docproperties.kdenliveversion">21.12.3</property>
-  <property name="kdenlive:docproperties.position">973</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
@@ -714,20 +907,7 @@ The Turing Club
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams"/>
   <property name="kdenlive:docproperties.proxyresize">640</property>
-  <property name="kdenlive:docproperties.scrollPos">1468</property>
-  <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.version">1.04</property>
-  <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">-1</property>
-  <property name="kdenlive:docproperties.zonein">72</property>
-  <property name="kdenlive:docproperties.zoneout">73</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
-  <property name="kdenlive:expandedFolders"/>
-  <property name="kdenlive:documentnotes"/>
-  <property name="kdenlive:docproperties.groups">[
-]
-</property>
-  <property name="kdenlive:docproperties.renderaudioquality">192</property>
+  <property name="kdenlive:docproperties.renderaudioquality">160</property>
   <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
   <property name="kdenlive:docproperties.renderendguide">-1</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
@@ -735,22 +915,32 @@ The Turing Club
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
-  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderquality">30</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
-  <property name="kdenlive:docproperties.renderrescale">0</property>
-  <property name="kdenlive:docproperties.renderrescaleheight">540</property>
-  <property name="kdenlive:docproperties.renderrescalewidth">960</property>
+  <property name="kdenlive:docproperties.renderrescale">1</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">534</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">950</property>
   <property name="kdenlive:docproperties.renderscanning">0</property>
-  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderspeed">3</property>
   <property name="kdenlive:docproperties.renderstartguide">-1</property>
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">C:/Users/saksh/Videos/trailer.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/home/dhruva/Programs/Python/GrandThesisAdventure-StressCity/trailer/trailer.mp4</property>
   <property name="kdenlive:docproperties.renderzone">0</property>
+  <property name="kdenlive:docproperties.scrollPos">0</property>
+  <property name="kdenlive:docproperties.seekOffset">30000</property>
+  <property name="kdenlive:docproperties.version">1.04</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.videoTarget">-1</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">2348</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:expandedFolders"/>
+  <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
   <entry producer="producer0" in="00:00:00.000" out="00:00:11.680"/>
-  <entry producer="producer1" in="00:00:00.000" out="00:02:45.000"/>
+  <entry producer="producer1" in="00:00:00.000" out="00:02:44.960"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:09.560"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:12.440"/>
   <entry producer="producer4" in="00:00:00.000" out="00:00:21.960"/>
@@ -758,15 +948,19 @@ The Turing Club
   <entry producer="producer6" in="00:00:00.000" out="00:00:18.840"/>
   <entry producer="producer7" in="00:00:00.000" out="00:00:21.880"/>
   <entry producer="producer8" in="00:00:00.000" out="00:00:11.280"/>
-  <entry producer="producer9" in="00:00:00.000" out="00:00:04.960"/>
-  <entry producer="producer10" in="00:00:00.000" out="00:00:04.960"/>
-  <entry producer="producer11" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer9" in="00:00:00.000" out="00:00:10.680"/>
+  <entry producer="producer14" in="00:00:00.000" out="00:00:09.600"/>
+  <entry producer="producer10" in="00:00:00.000" out="00:00:05.920"/>
+  <entry producer="producer11" in="00:00:00.000" out="00:00:08.040"/>
   <entry producer="producer12" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer13" in="00:00:00.000" out="00:00:04.960"/>
-  <entry producer="producer14" in="00:00:00.000" out="00:00:09.600"/>
-  <entry producer="producer15" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer15" in="00:00:00.000" out="00:00:16.160"/>
+  <entry producer="producer16" in="00:00:00.000" out="00:02:41.280"/>
+  <entry producer="producer17" in="00:00:00.000" out="00:00:05.400"/>
+  <entry producer="producer18" in="00:00:00.000" out="00:00:06.240"/>
+  <entry producer="producer19" in="00:00:00.000" out="00:00:04.960"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:21:15.080">
+ <producer id="black_track" in="00:00:00.000" out="00:21:36.320">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -810,52 +1004,45 @@ The Turing Club
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer16" in="00:00:00.000" out="00:02:45.000">
-  <property name="length">4126</property>
+ <producer id="producer20" in="00:00:00.000" out="00:02:41.280">
+  <property name="length">4033</property>
   <property name="eof">pause</property>
-  <property name="resource">Grieg - In the Hall of the Mountain King - Igor Manasherov, Moscow Philharmonic Orchestra.mp3</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">mp3float</property>
-  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.encoder.markup">Lavc59.7.</property>
-  <property name="meta.attr.major_brand.markup">dash</property>
-  <property name="meta.attr.minor_version.markup">0</property>
-  <property name="meta.attr.compatible_brands.markup">iso6mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf59.5.100</property>
-  <property name="seekable">1</property>
+  <property name="resource">Grieg - Peer Gynt Suite No. 1, 'In the Hall of the Mountain King' [4nMUr8Rt2AI].m4a</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">0</property>
   <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">aac</property>
+  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.0.codec.bit_rate">127999</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf59.16.100</property>
+  <property name="seekable">1</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">3</property>
-  <property name="kdenlive:file_size">2640905</property>
-  <property name="kdenlive:file_hash">24800937504c5510d54516e5bf9dfba3</property>
-  <property name="kdenlive:audio_max0">226</property>
+  <property name="kdenlive:id">18</property>
+  <property name="kdenlive:file_size">2609620</property>
+  <property name="kdenlive:file_hash">90a81a83685c398c7f370740a978f015</property>
+  <property name="kdenlive:audio_max0">242</property>
   <property name="xml">was here</property>
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <entry producer="producer16" in="00:00:47.960" out="00:02:03.000">
-   <property name="kdenlive:id">3</property>
-   <filter id="filter3" in="00:00:47.960" out="00:00:52.080">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">fadein</property>
-    <property name="gain">0</property>
-    <property name="end">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter4" in="00:01:53.760" out="00:02:03.040">
+  <entry producer="producer20" in="00:00:55.160" out="00:02:27.040">
+   <property name="kdenlive:id">18</property>
+   <filter id="filter3" in="00:02:26.280" out="00:02:27.040">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -869,7 +1056,7 @@ The Turing Club
  <playlist id="playlist3">
   <property name="kdenlive:audio_track">1</property>
  </playlist>
- <tractor id="tractor1" in="00:00:00.000" out="00:01:15.040">
+ <tractor id="tractor1" in="00:00:00.000" out="00:01:31.880">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">80</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -892,16 +1079,16 @@ The Turing Club
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter7">
+  <filter id="filter4">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer17" in="00:00:00.000" out="00:00:09.320">
-  <property name="length">234</property>
+ <producer id="producer21" in="00:00:00.000" out="00:00:07.760">
+  <property name="length">195</property>
   <property name="eof">pause</property>
-  <property name="resource">1.250000:zoom_out_intro.mp4</property>
+  <property name="resource">1.500000:zoom_out_intro.mp4</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
@@ -937,7 +1124,7 @@ The Turing Club
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
-  <property name="warp_speed">1.25</property>
+  <property name="warp_speed">1.5</property>
   <property name="warp_resource">zoom_out_intro.mp4</property>
   <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
@@ -955,23 +1142,11 @@ The Turing Club
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer18" in="00:00:00.000" out="00:00:09.560">
-  <property name="length">240</property>
+ <producer id="producer22" in="00:00:00.000" out="00:00:12.040">
+  <property name="length">303</property>
   <property name="eof">pause</property>
-  <property name="resource">shoes.mp4</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
+  <property name="resource">0.792600:shoes.mp4</property>
   <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">5</property>
-  <property name="kdenlive:file_size">873111</property>
-  <property name="kdenlive:file_hash">ec2ba339de5ba3c3a2ac2d5b7fb8ca50</property>
-  <property name="kdenlive:audio_max1">1</property>
-  <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -1000,8 +1175,19 @@ The Turing Club
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
   <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+  <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">0.7926</property>
+  <property name="warp_resource">shoes.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">4</property>
+  <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">60</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -1012,13 +1198,11 @@ The Turing Club
   <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
  </producer>
- <producer id="producer19" in="00:00:00.000" out="00:00:08.280">
-  <property name="length">208</property>
+ <producer id="producer23" in="00:00:00.000" out="00:00:07.040">
+  <property name="length">177</property>
   <property name="eof">pause</property>
-  <property name="resource">1.500000:panic_run.mp4</property>
+  <property name="resource">1.760000:panic_run.mp4</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
@@ -1054,12 +1238,12 @@ The Turing Club
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
-  <property name="warp_speed">1.5</property>
+  <property name="warp_speed">1.76</property>
   <property name="warp_resource">panic_run.mp4</property>
   <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:id">5</property>
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">60</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1072,10 +1256,10 @@ The Turing Club
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer20" in="00:00:00.000" out="00:00:05.480">
-  <property name="length">138</property>
+ <producer id="producer24" in="00:00:00.000" out="00:00:08.240">
+  <property name="length">207</property>
   <property name="eof">pause</property>
-  <property name="resource">4.000000:panic_circle.mp4</property>
+  <property name="resource">2.659600:panic_circle.mp4</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
@@ -1111,12 +1295,12 @@ The Turing Club
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
-  <property name="warp_speed">4</property>
+  <property name="warp_speed">2.6596</property>
   <property name="warp_resource">panic_circle.mp4</property>
   <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:id">6</property>
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">60</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1129,7 +1313,64 @@ The Turing Club
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer21" in="00:00:00.000" out="00:00:21.880">
+ <producer id="producer25" in="00:00:00.000" out="00:00:04.560">
+  <property name="length">115</property>
+  <property name="eof">pause</property>
+  <property name="resource">4.765900:panic_circle.mp4</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">60</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">756244</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">2276</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">4.7659</property>
+  <property name="warp_resource">panic_circle.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">6</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">60</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer26" in="00:00:00.000" out="00:00:21.880">
   <property name="length">548</property>
   <property name="eof">pause</property>
   <property name="resource">stress_meter_2.mp4</property>
@@ -1141,7 +1382,7 @@ The Turing Club
   <property name="aspect_ratio">1</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="kdenlive:file_size">2079437</property>
   <property name="kdenlive:file_hash">5def13a02f93548d385ec2600efcf93f</property>
   <property name="kdenlive:audio_max1">1</property>
@@ -1189,7 +1430,7 @@ The Turing Club
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer22" in="00:00:00.000" out="00:00:05.440">
+ <producer id="producer27" in="00:00:00.000" out="00:00:05.440">
   <property name="length">137</property>
   <property name="eof">pause</property>
   <property name="resource">4.000000:stress_meter_2.mp4</property>
@@ -1233,7 +1474,7 @@ The Turing Club
   <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:id">9</property>
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">60</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1246,70 +1487,10 @@ The Turing Club
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer23" in="00:00:00.000" out="00:00:11.280">
-  <property name="length">283</property>
+ <producer id="producer28" in="00:00:00.000" out="00:00:12.400">
+  <property name="length">311</property>
   <property name="eof">pause</property>
-  <property name="resource">chill_pill.mp4</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">11</property>
-  <property name="kdenlive:file_size">923973</property>
-  <property name="kdenlive:file_hash">f9df65c2e6da14d3bac94e3ef493cbf6</property>
-  <property name="kdenlive:audio_max1">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">60</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">640012</property>
-  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">48000</property>
-  <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">2278</property>
-  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
-  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">isom</property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">60</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.has_b_frames">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
- </producer>
- <producer id="producer24" in="00:00:00.000" out="00:00:45.280">
-  <property name="length">1132</property>
-  <property name="eof">pause</property>
-  <property name="resource">0.250000:chill_pill.mp4</property>
+  <property name="resource">0.909700:chill_pill.mp4</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
@@ -1345,12 +1526,69 @@ The Turing Club
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
-  <property name="warp_speed">0.25</property>
+  <property name="warp_speed">0.9097</property>
   <property name="warp_resource">chill_pill.mp4</property>
   <property name="mlt_service">timewarp</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:id">10</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">60</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer29" in="00:00:00.000" out="00:01:30.640">
+  <property name="length">2264</property>
+  <property name="eof">pause</property>
+  <property name="resource">0.125000:chill_pill.mp4</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">60</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">640012</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">2278</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">0.125</property>
+  <property name="warp_resource">chill_pill.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">10</property>
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">60</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1365,8 +1603,8 @@ The Turing Club
  </producer>
  <playlist id="playlist4">
   <entry producer="producer14" in="00:00:00.000" out="00:00:06.800">
-   <property name="kdenlive:id">13</property>
-   <filter id="filter8" in="00:00:05.760" out="00:00:06.840">
+   <property name="kdenlive:id">12</property>
+   <filter id="filter8" in="00:00:05.720" out="00:00:06.800">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1375,14 +1613,15 @@ The Turing Club
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer17" in="00:00:00.000" out="00:00:09.320">
+  <entry producer="producer21" in="00:00:00.000" out="00:00:07.760">
    <property name="kdenlive:id">2</property>
-   <filter id="filter9">
+   <property name="kdenlive:activeeffect">0</property>
+   <filter id="filter7">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=-5652 -3258 13232 7443 1.000000;00:00:07.920=-1562 -887 5055 2843 0.962500;00:00:08.560=-1232 -696 4395 2472 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:07.920=0;00:00:08.560=0</property>
+    <property name="rect">00:00:00.000=-5184 -2916 12288 6912 1.000000;00:00:06.280=-2880 -1620 7680 4320 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:06.280=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
@@ -1395,7 +1634,7 @@ The Turing Club
     <property name="alpha">00:00:00.000=0;00:00:02.760=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter11" in="00:00:07.360" out="00:00:09.320">
+   <filter id="filter11" in="00:00:05.840" out="00:00:07.800">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1404,8 +1643,8 @@ The Turing Club
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer18" in="00:00:00.000" out="00:00:05.920">
-   <property name="kdenlive:id">5</property>
+  <entry producer="producer22" in="00:00:00.000" out="00:00:07.480">
+   <property name="kdenlive:id">4</property>
    <filter id="filter12">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1424,17 +1663,17 @@ The Turing Club
     <property name="alpha">00:00:00.000=0;00:00:01.560=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter14" in="00:00:03.920" out="00:00:05.920">
+   <filter id="filter14" in="00:00:06.080" out="00:00:07.520">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:02.000=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.440=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer19" in="00:00:00.000" out="00:00:08.280">
-   <property name="kdenlive:id">6</property>
+  <entry producer="producer23" in="00:00:00.000" out="00:00:07.040">
+   <property name="kdenlive:id">5</property>
    <filter id="filter15">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1445,15 +1684,15 @@ The Turing Club
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter16" out="00:00:02.240">
+   <filter id="filter16" out="00:00:02.800">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:02.240=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:02.800=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter17" in="00:00:06.800" out="00:00:08.280">
+   <filter id="filter17" in="00:00:05.600" out="00:00:07.080">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1462,8 +1701,8 @@ The Turing Club
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer20" in="00:00:00.000" out="00:00:05.480">
-   <property name="kdenlive:id">7</property>
+  <entry producer="producer24" in="00:00:00.000" out="00:00:03.240">
+   <property name="kdenlive:id">6</property>
    <filter id="filter18">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1482,18 +1721,30 @@ The Turing Club
     <property name="alpha">00:00:00.000=0;00:00:00.680=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter20" in="00:00:04.960" out="00:00:05.480">
+  </entry>
+  <entry producer="producer25" in="00:00:01.800" out="00:00:04.520">
+   <property name="kdenlive:id">6</property>
+   <filter id="filter9">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:01.800=-840 -472 3600 2025 1.000000</property>
+    <property name="rotation">00:00:01.800=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter20" in="00:00:03.800" out="00:00:04.520">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:00.520=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.720=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer21" in="00:00:00.000" out="00:00:08.960">
-   <property name="kdenlive:id">10</property>
-   <property name="kdenlive:activeeffect">0</property>
+  <entry producer="producer26" in="00:00:00.000" out="00:00:08.960">
+   <property name="kdenlive:id">9</property>
    <filter id="filter21">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1504,18 +1755,17 @@ The Turing Club
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter22" out="00:00:01.240">
+   <filter id="filter22" out="00:00:00.520">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.520=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer22" in="00:00:02.240" out="00:00:05.440">
-   <property name="kdenlive:id">10</property>
-   <property name="kdenlive:activeeffect">0</property>
+  <entry producer="producer27" in="00:00:02.240" out="00:00:05.440">
+   <property name="kdenlive:id">9</property>
    <filter id="filter23">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1535,51 +1785,44 @@ The Turing Club
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer23" in="00:00:00.000" out="00:00:10.440">
-   <property name="kdenlive:id">11</property>
+  <entry producer="producer28" in="00:00:00.000" out="00:00:11.480">
+   <property name="kdenlive:id">10</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter25">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:10.440=0 0 1920 1080 1.000000;00:00:11.280=-6507 -3763 14944 8406 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:10.440=0;00:00:11.280=0</property>
+    <property name="rect">00:00:00.000=-480 -272 2880 1620 1.000000;00:00:09.280=-480 -272 2880 1620 1.000000;00:00:11.480=-5088 -2864 12096 6804 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:09.280=0;00:00:11.480=0</property>
     <property name="compositing">0</property>
-    <property name="distort">0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter26" out="00:00:01.120">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:01.120=1</property>
+    <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer24" in="00:00:41.920" out="00:00:45.240">
-   <property name="kdenlive:id">11</property>
+  <entry producer="producer29" in="00:01:24.000" out="00:01:30.400">
+   <property name="kdenlive:id">10</property>
    <property name="kdenlive:activeeffect">0</property>
-   <filter id="filter27">
+   <filter id="filter26">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:41.920=0 0 1920 1080 1.000000;00:00:42.480=0 0 1920 1080 1.000000;00:00:45.240=-6455 -3734 14841 8348 1.000000</property>
-    <property name="rotation">00:00:41.920=0;00:00:42.480=0;00:00:45.240=0</property>
+    <property name="rect">00:01:24.000=-960 -540 3840 2160 1.000000;00:01:28.720=-6720 -3780 15360 8640 1.000000</property>
+    <property name="rotation">00:01:24.000=0;00:01:28.720=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter28" in="00:00:44.960" out="00:00:45.240">
+   <filter id="filter27" in="00:01:29.920" out="00:01:30.400">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:00.280=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.480=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer9" in="00:00:00.000" out="00:00:05.320">
-   <property name="kdenlive:id">12</property>
+  <entry producer="producer9" in="00:00:00.000" out="00:00:05.520">
+   <property name="kdenlive:id">11</property>
    <filter id="filter29" out="00:00:02.360">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -1588,26 +1831,26 @@ The Turing Club
     <property name="alpha">00:00:00.000=0;00:00:02.360=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter30" in="00:00:04.640" out="00:00:05.320">
+   <filter id="filter30" in="00:00:04.880" out="00:00:05.560">
     <property name="start">1</property>
-    <property name="level">1</property>
+    <property name="level">00:00:00.000=1;00:00:00.680=0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:00.680=0</property>
+    <property name="alpha">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer15" in="00:00:00.000" out="00:00:07.600">
-   <property name="kdenlive:id">18</property>
-   <filter id="filter31" out="00:00:01.800">
+  <entry producer="producer15" in="00:00:00.000" out="00:00:07.400">
+   <property name="kdenlive:id">17</property>
+   <filter id="filter31" out="00:00:00.880">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:01.800=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.880=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter32" in="00:00:05.760" out="00:00:07.600">
+   <filter id="filter32" in="00:00:05.560" out="00:00:07.400">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1616,9 +1859,58 @@ The Turing Club
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <entry producer="producer17" in="00:00:00.000" out="00:00:04.120">
+   <property name="kdenlive:id">19</property>
+   <filter id="filter28" out="00:00:00.320">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.320=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter33" in="00:00:03.160" out="00:00:04.120">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.960=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer18" in="00:00:00.000" out="00:00:06.240">
+   <property name="kdenlive:id">20</property>
+   <filter id="filter34" out="00:00:00.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter35" in="00:00:05.160" out="00:00:06.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.080=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer19" in="00:00:00.000" out="00:00:07.360">
+   <property name="kdenlive:id">21</property>
+   <filter id="filter36" in="00:00:06.000" out="00:00:07.360">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.360=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
  </playlist>
  <playlist id="playlist5"/>
- <tractor id="tractor2" in="00:00:00.000" out="00:01:15.040">
+ <tractor id="tractor2" in="00:00:00.000" out="00:01:36.280">
   <property name="kdenlive:trackheight">80</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1630,76 +1922,75 @@ The Turing Club
  <playlist id="playlist6">
   <blank length="00:00:16.200"/>
   <entry producer="producer10" in="00:00:00.000" out="00:00:05.920">
+   <property name="kdenlive:id">13</property>
+   <filter id="filter37" out="00:00:00.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.960=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter38" in="00:00:04.560" out="00:00:05.920">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.360=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:00.640"/>
+  <entry producer="producer11" in="00:00:00.000" out="00:00:06.400">
    <property name="kdenlive:id">14</property>
-   <filter id="filter33" out="00:00:03.160">
+   <filter id="filter39" out="00:00:01.040">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:03.160=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.040=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter34" in="00:00:03.680" out="00:00:05.920">
+   <filter id="filter40" in="00:00:04.720" out="00:00:06.440">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:02.240=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.720=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:00.240"/>
-  <entry producer="producer11" in="00:00:00.000" out="00:00:06.800">
+  <entry producer="producer12" in="00:00:00.000" out="00:00:06.000">
    <property name="kdenlive:id">15</property>
-   <filter id="filter35" out="00:00:03.160">
+   <filter id="filter41" out="00:00:00.480">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:03.160=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.480=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter36" in="00:00:04.600" out="00:00:06.840">
+   <filter id="filter42" in="00:00:05.080" out="00:00:06.040">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:02.240=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:00.960=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:01.400"/>
-  <entry producer="producer12" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">16</property>
-   <filter id="filter37" out="00:00:00.880">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:00.880=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter38" in="00:00:03.200" out="00:00:04.960">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:01.760=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <blank length="00:00:00.360"/>
+  <blank length="00:00:00.480"/>
   <entry producer="producer13" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">17</property>
-   <filter id="filter39" out="00:00:00.600">
+   <property name="kdenlive:id">16</property>
+   <filter id="filter43" out="00:00:01.200">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:00.600=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.200=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter40" in="00:00:04.160" out="00:00:04.960">
+   <filter id="filter44" in="00:00:04.160" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1710,7 +2001,7 @@ The Turing Club
   </entry>
  </playlist>
  <playlist id="playlist7"/>
- <tractor id="tractor3" in="00:00:00.000" out="00:00:40.960">
+ <tractor id="tractor3" in="00:00:00.000" out="00:00:40.720">
   <property name="kdenlive:trackheight">80</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1719,7 +2010,7 @@ The Turing Club
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
- <tractor id="tractor4" in="00:00:00.000" out="00:21:15.080">
+ <tractor id="tractor4" in="00:00:00.000" out="00:21:36.320">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
@@ -1763,21 +2054,21 @@ The Turing Club
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter41">
+  <filter id="filter45">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter42">
+  <filter id="filter46">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter43">
+  <filter id="filter47">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
