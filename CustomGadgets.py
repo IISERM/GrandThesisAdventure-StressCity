@@ -56,5 +56,5 @@ class Phone(gadgets.Gadget):
             sg.popup_no_buttons("I should check my phone, if there's a message from the PhD guy...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             count += 1
         if self.notificationsActive and count == 10:
-            sg.popup_no_buttons("There's something on my phone", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+            sg.popup_no_buttons("There's something on my phone... Oh, there's an X on the CAF map", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             game.map("CAF").place_item("X Marks The Spot!", game)

@@ -55,7 +55,8 @@
     },
     "items": {
         "Pay": [5, 32],
-        "Tender": [17, 34]
+        "Tender": [17, 34],
+		"Biswas PhD": [16,48]
     },
     "items_on_startup": ["Tender"]
 }

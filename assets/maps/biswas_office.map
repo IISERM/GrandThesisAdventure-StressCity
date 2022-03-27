@@ -21,7 +21,8 @@
     "items": {
         "Busy Biswas": [6, 16],
         "Biswas Elated": [6, 17],
-        "CV": [7, 12]
+        "CV": [7, 12],
+        "Find PhD": [6, 18]
     },
     "items_on_startup": ["Busy Biswas"]
 }
