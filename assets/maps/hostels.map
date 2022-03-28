@@ -436,6 +436,14 @@
 		"180,134" : ["Hostel 7 Floor 1",[6,113]],
 		"181,136" : ["Hostel 7 Floor 1",[6,113]],
 
+		"175,494" : ["Hostel 3 Floor 1",[6,88]],
+		"176,496" : ["Hostel 3 Floor 1",[6,93]],
+		"177,498" : ["Hostel 3 Floor 1",[6,98]],
+		"178,500" : ["Hostel 3 Floor 1",[6,103]],
+		"179,502" : ["Hostel 3 Floor 1",[6,108]],
+		"180,504" : ["Hostel 3 Floor 1",[6,113]],
+		"181,506" : ["Hostel 3 Floor 1",[6,113]],
+
 		"71,494" : ["Hostel 4 Floor 1",[6,88]],
 		"70,496" : ["Hostel 4 Floor 1",[6,93]],
 		"69,498" : ["Hostel 4 Floor 1",[6,98]],
@@ -460,13 +468,29 @@
 		"70,257" : ["Hostel 6 Floor 1",[6,113]],
 		"71,259" : ["Hostel 6 Floor 1",[6,113]],
 
-		"66,616" : ["Hostel 6 Floor 1",[6,88]],
-		"66,617" : ["Hostel 6 Floor 1",[6,93]],
-		"67,619" : ["Hostel 6 Floor 1",[6,98]],
-		"68,621" : ["Hostel 6 Floor 1",[6,103]],
-		"69,623" : ["Hostel 6 Floor 1",[6,108]],
-		"70,625" : ["Hostel 6 Floor 1",[6,113]],
-		"71,627" : ["Hostel 6 Floor 1",[6,113]]
+		"66,616" : ["Hostel 2 Floor 1",[6,88]],
+		"66,617" : ["Hostel 2 Floor 1",[6,93]],
+		"67,619" : ["Hostel 2 Floor 1",[6,98]],
+		"68,621" : ["Hostel 2 Floor 1",[6,103]],
+		"69,623" : ["Hostel 2 Floor 1",[6,108]],
+		"70,625" : ["Hostel 2 Floor 1",[6,113]],
+		"71,627" : ["Hostel 2 Floor 1",[6,113]],
+		
+        "175,259" : ["Hostel 5 Floor 1",[6,113]],
+		"176,257" : ["Hostel 5 Floor 1",[6,113]],
+		"177,255" : ["Hostel 5 Floor 1",[6,108]],
+		"178,253" : ["Hostel 5 Floor 1",[6,103]],
+		"179,251" : ["Hostel 5 Floor 1",[6,98]],
+		"180,249" : ["Hostel 5 Floor 1",[6,93]],
+		"180,248" : ["Hostel 5 Floor 1",[6,88]],
+        
+        "175,627" : ["Hostel 1 Floor 1",[6,113]],
+		"176,625" : ["Hostel 1 Floor 1",[6,113]],
+		"177,623" : ["Hostel 1 Floor 1",[6,108]],
+		"178,621" : ["Hostel 1 Floor 1",[6,103]],
+		"179,619" : ["Hostel 1 Floor 1",[6,98]],
+		"180,617" : ["Hostel 1 Floor 1",[6,93]],
+		"180,617" : ["Hostel 1 Floor 1",[6,88]]
 		},
     "items": {
 		"Aria Shade": [132, 229],
