@@ -1,0 +1,8 @@
+{
+    "name": "Jammed door",
+    "desc": "Huh? I wonder what's inside...",
+    "char": "",
+    "need_input": false,
+    "code_file": "assets/items/code/caf-jammed-door.py",
+    "collectable": false
+}

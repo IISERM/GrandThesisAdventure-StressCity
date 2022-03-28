@@ -1,0 +1,7 @@
+{
+    "name": "Wrench",
+    "char": "",
+    "desc": "That was convenient. I should head back to that jammed door.",
+    "need_input": false,
+    "collectable": true
+}

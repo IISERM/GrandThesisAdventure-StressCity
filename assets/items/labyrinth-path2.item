@@ -1,6 +1,7 @@
 {
     "name": "Terminal 2",
     "answerhash": "f137788e1ed8c5b4928742e06817302d",
+    "char":"⌨",
     "desc": "Terminal 2; Enter password to open side entrance.",
     "need_input": true,
     "code_file": "assets/items/code/labyrinth-path2.py",
