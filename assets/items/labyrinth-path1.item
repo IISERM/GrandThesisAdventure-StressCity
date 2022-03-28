@@ -1,6 +1,7 @@
 {
     "name": "Terminal 1",
     "answerhash": "d5cfbc9179a7f4e999a86d20bd0ef465",
+    "char":"⌨",
     "desc": "Only META thoughts will find what the image hides behind.",
     "need_input": true,
     "code_file": "assets/items/code/labyrinth-path1.py",
