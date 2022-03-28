@@ -1,5 +1,5 @@
 {
-    "name": "Dear Dairy,",
+    "name": "Dear Diary,",
     "desc": "This is my Dairy. Or is it Diary? Anyway, I may have written something important in it.",
     "need_input": false,
     "media_path": "external::assets/media/roughnote.pdf",
