@@ -1,5 +1,5 @@
 {
-    "name": "stairs_up",
+    "name": "Go upstairs",
     "character": "▚",
     "walkable": true
 }
