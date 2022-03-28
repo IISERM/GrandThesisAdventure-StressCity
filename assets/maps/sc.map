@@ -134,5 +134,11 @@
 		"48,66" : ["Lata Mukherjee's Shop",[2,36]],
 		"48,67" : ["Lata Mukherjee's Shop",[2,36]]
 },
-    "items": {}
+    "items": {
+		"Light Blue Bottle": [52, 122],
+		"Boars": [59, 166],
+		"Marvelous Dbs": [46, 166],
+		"Chai Chem": [41, 66],
+		"Doggo Picture": [37, 99]
+	}
 }

@@ -1,0 +1,6 @@
+{
+    "name": "Expensive Shed",
+    "desc": "was it 80 lakhs? 50 lakhs? 15 lakhs?",
+    "need_input": false,
+    "collectable": false
+}

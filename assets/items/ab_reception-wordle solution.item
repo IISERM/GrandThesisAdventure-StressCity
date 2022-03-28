@@ -1,0 +1,6 @@
+{
+    "name": "Wordle Solution",
+    "desc": "what? Isn't wordle dead already",
+    "need_input": false,
+    "collectable": false
+}

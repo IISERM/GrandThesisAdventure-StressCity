@@ -1,0 +1,6 @@
+{
+    "name": "Light Blue Bottle",
+    "desc": "Oh found a light blue bottle...wonder who it belongs to",
+    "need_input": false,
+    "collectable": false
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Julia Workshop",
+    "desc": "But they had to resort to python to make the treasure hunt ;)",
+    "need_input": false,
+    "collectable": false
+}

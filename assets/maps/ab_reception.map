@@ -21,6 +21,10 @@
         "4,9" : ["Biswas Office",[3,14]]
     },
     "items": {
-        "The Guard": [4, 9]
+        "The Guard": [4, 9],
+        "Random Clothes Stashed": [1, 18],
+        "WiPMA": [2, 1],
+        "Wordle Solution": [3, 1],
+        "Poster Signed R": [4, 1]
     }
 }
