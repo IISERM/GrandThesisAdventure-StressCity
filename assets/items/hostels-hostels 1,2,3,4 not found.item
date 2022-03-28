@@ -1,6 +1,6 @@
 {
-    "name": "Hostels 1,2,3,4 Not Found",
-    "desc": "Holy shit, they actually finished building all hostels",
+    "name": "Hostels 1-4 Not Found",
+    "desc": "Holy shit, they actually finished building all hostels!!",
     "need_input": false,
     "collectable": false
 }
