@@ -95,7 +95,8 @@
 	 },
     "items": {
         "X Marks The Spot!": [36, 83],
-        "X Marks The Spot": [35, 83]
+        "X Marks The Spot": [35, 83],
+		"Fact13": [7, 106]
     },
     "items_on_startup": ["X Marks The Spot!"]
 }

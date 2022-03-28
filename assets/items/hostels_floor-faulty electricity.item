@@ -1,0 +1,6 @@
+{
+    "name": "Faulty Electricity",
+    "desc": "Shit the lights went off... oh they came back... nvm they went again.",
+    "need_input": false,
+    "collectable": false
+}
