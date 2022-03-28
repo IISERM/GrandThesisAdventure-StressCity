@@ -1,9 +1,8 @@
 {
     "name": "Fact5",
-    "answerhash": "random",
     "desc": "Click 'Show Media' to know an interesting fact.",
     "need_input": false,
     "code_file": "assets/items/code/fact5.py",
-    "media_path": "image::assets/facts/5.png",
-    "collectable": true
+    "media_path": "image::assets/media/facts/5.png",
+    "collectable": false
 }
