@@ -128,5 +128,9 @@
 		"5,113" : ["Hostels",[175,137]],
 		"5,114" : ["Hostels",[175,137]]
 		},		                                        
-    "items": {}		                                        
+    "items": {
+		"Notice Board 1/3": [9, 88],
+		"Notice Board 2/3": [10, 88],
+		"Notice Board 3/3": [11, 88]
+	}		                                        
 }
