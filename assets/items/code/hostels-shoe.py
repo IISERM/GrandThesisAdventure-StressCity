@@ -1,3 +1,4 @@
+game.map("Hostel 7 Floor 4").remove_item("404 Shoe", game)
 game.surface("░").walkable = True
 message = f"You can now walk on {game.surface('░').name} (░)!"
 

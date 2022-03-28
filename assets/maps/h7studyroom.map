@@ -39,7 +39,6 @@
     "init_pos": [20,30],
     "exits": {},
     "items": {
-        "Teleporter": [1, 1],
-        "Shoe": [1, 69]
+        "Teleporter": [1, 1]
     }
 }
