@@ -1,2 +1,2 @@
-game.gadgets.Phone.phdNotifications = True
-game.gadgets.Phone.mediaPath = "image::assets/media/phone/2.png"
+game.gadgets[3].phdNotifications = True
+game.gadgets[3].mediaPath = "image::assets/media/phone/2.png"
