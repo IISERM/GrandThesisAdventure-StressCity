@@ -2,6 +2,6 @@
     "name": "Unknown Letter",
     "desc": "A very ominous letter, maybe I will understand what it means later...",
     "need_input": false,
-    "media_path": "external::assets/media/unknown letter.pdf",
+    "media_path": "external::assets/media/unknown-letter.pdf",
     "collectable": true
 }

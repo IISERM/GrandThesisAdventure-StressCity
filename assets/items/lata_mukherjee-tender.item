@@ -2,6 +2,6 @@
     "name": "Tender",
     "desc": "This is a tender document. Why is it lying here?",
     "need_input": false,
-    "media_path": "pdf::assets/media/tender application.pdf",
+    "media_path": "pdf::assets/media/tender-application.pdf",
     "collectable": false
 }
