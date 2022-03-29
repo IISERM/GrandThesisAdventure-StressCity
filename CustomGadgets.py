@@ -1,4 +1,5 @@
 from tetra import gadgets
+from tetra import helpers
 import PySimpleGUI as sg
 import random
 
@@ -6,7 +7,7 @@ class StressMeter(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Stress Meter")
         self.val = 25
-        self.stress_rate_per_iteration = 0.001
+        self.stressRatePerIteration = 0.001
         self.isBroken = False
 
     def stress_saying(self):
@@ -25,7 +26,7 @@ class StressMeter(gadgets.Gadget):
         return sg.ProgressBar(100, orientation='h', size=(30, 10), key=self.name.lower(), expand_x=True, pad=10)
 
     def update(self, game, event):
-        self.val += self.stress_rate_per_iteration
+        self.val += self.stressRatePerIteration
         if self.val > 100 and not self.isBroken:
             self.isBroken = True
             sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
@@ -38,8 +39,8 @@ class StressMeter(gadgets.Gadget):
 class Phone(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Phone")
-        self.notificationsActive = False
-        self.messageFromFriend = True
+        self.phdNotifications = False
+        self.mediaPath = "image::assets/media/phone/1.png"
 
     def render_content(self):
         return sg.Button("Phone", key = "OPEN-PHONE")
@@ -47,16 +48,15 @@ class Phone(gadgets.Gadget):
     def update(self, game, event):
         count = 0
         if event == "OPEN-PHONE":
-            if not self.messageFromFriend:
-                sg.popup_no_buttons("This should display an image", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
-            else:
-                pass
+            helpers.play_media(self.mediaPath)
             
-        if self.notificationsActive and random.random()<0.013 :
-            sg.popup_no_buttons("I should check my phone, if there's a message from the PhD guy...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+        if self.phdNotifications and random.random()<0.013 :
+            sg.popup_no_buttons("I should check my phone, if there's a message from the PhD...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             count += 1
-        if self.notificationsActive and count == 5:
+        if self.phdNotifications and count == 5:
             sg.popup_no_buttons("You have a notification", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             game.map("raod").place_item("Map of Campus(Vandalised)")
             game.map("raod").remove_item("Map of Campus")
             game.map("CAF").place_item("X Marks The Spot!", game)
+            self.mediaPath = "image::assets/media/phone/3.png"
+            self.phdNotifications = False
