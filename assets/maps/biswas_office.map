@@ -22,9 +22,10 @@
     "items": {
         "Busy Biswas": [6, 16],
         "Biswas Elated": [6, 17],
+        "A Mysterious MP3 Player": [8, 1],
         "CV": [7, 12],
         "Find PhD": [6, 18],
-        "Exhausted": [3, 14]
+        "Exhausted": [3, 15]
     },
-    "items_on_startup": ["Busy Biswas", "Exhausted"]
+    "items_on_startup": ["Busy Biswas", "Exhausted", "A Mysterious MP3 Player"]
 }
