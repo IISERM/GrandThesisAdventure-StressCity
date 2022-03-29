@@ -54,7 +54,9 @@
 		"0,49" : ["SC",[47,67]]
     },
     "items": {
-        "Pay": [5, 32],
+        "Lata Mukherjee (Idle)": [5, 32],
+        "Lata Mukherjee (Expectant)": [6, 32],
+        "Lata Mukherjee (Tired)": [7, 32],
         "Tender": [17, 34],
 		"Biswas PhD": [16,47],
 		"Shelf1": [15, 55],
@@ -63,5 +65,5 @@
 		"Shelf4": [14, 8],
 		"Shelf5": [10, 8]
     },
-    "items_on_startup": ["Tender"]
+    "items_on_startup": ["Tender",  "Lata Mukherjee (Idle)"]
 }
