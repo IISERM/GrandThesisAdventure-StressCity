@@ -13,6 +13,6 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Down>", "down")
         self.window.bind("<KeyPress-Right>", "right")
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Lata Mukherjee's Shop")
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Hostel Room")
 
 myGame.run()
