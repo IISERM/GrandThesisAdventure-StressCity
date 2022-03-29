@@ -6,6 +6,10 @@ from tetra import terminal
 import CustomGadgets
 
 class MyGame(terminal.Game):
+    def __init__(self, title, settingsfile, gadgets_list, first_map=None, theme="Dark"):
+        super().__init__(title, settingsfile, gadgets_list, first_map, theme)
+        self.factsFound = [0 for i in range(15)]
+
     def bind_sg_events(self):
         super().bind_sg_events()
         self.window.bind("<KeyPress-Up>", "up")
