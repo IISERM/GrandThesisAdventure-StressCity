@@ -113,7 +113,8 @@
 },
     "items": {
 		"Map of Campus": [54, 66],
-		"Map of Campus(Vandalised)": [54, 67]
+		"Map of Campus(Vandalised)": [54, 67],
+		"Side Quest 3" : [11, 7]
 	},
 	"items_on_startup": ["Map of Campus"]
 }

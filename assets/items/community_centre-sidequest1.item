@@ -1,0 +1,8 @@
+{
+    "name": "Side Quest 1",
+    "desc": "A viral audio has surfaced, but the its tampered, have to filter it I guess \nClue : Remember to note the frequencies of the noise, they may be sharp or flat or just neither \nRemember to look at what's on repeat \nFor that is where you should hither",
+    "need_input": false,
+    "media_path": "link::https://iiserm.github.io/GTA-Stress-City/S1bhify/sidequest1.mp3",
+    "code_file": "assets/items/code/community_centre-sidequest1.py",
+    "collectable": false
+}
