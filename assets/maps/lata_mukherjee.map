@@ -65,5 +65,5 @@
 		"Shelf4": [14, 8],
 		"Shelf5": [10, 8]
     },
-    "items_on_startup": ["Tender",  "Lata Mukherjee (Idle)"]
+    "items_on_startup": ["Tender",  "Lata Mukherjee (Idle)", "Shelf1", "Shelf2", "Shelf3", "Shelf4", "Shelf5"]
 }

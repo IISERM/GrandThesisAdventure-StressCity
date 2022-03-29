@@ -1,3 +1,6 @@
-game.factsFound = [0 for i in range(0, 14)]
+game.factsFound[14] = 1
 
-# Activate phd
+if sum(game.factsFound) == 15:
+    game.map("PhD Room").remove_item("Bored PhD")
+    game.map("PhD Room").place_item("Gurpreet Sita Rahim Mary Insaan")
+

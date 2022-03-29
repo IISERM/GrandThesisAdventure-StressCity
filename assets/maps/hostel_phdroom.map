@@ -1,0 +1,26 @@
+{
+    "name": "PhD Room",
+    "raw": "▉▉▉▉▉▉▉▉▉▉▉▔▔▔▔▉▉▉
+▉                ▉
+▉ ▃▃▃▃▃          ▉
+▉ ▒▒▒▒▒       |||▉
+▉ ▒▒▒▒▒       |||▉
+▉ ▒▒▒▒▒          ▉
+▉               ▒▉
+▉               ▒▉
+▉▃▃▃▃▃▃▃▃       ▒▉
+▉▉▉▉▉▉▉▉▉▉▉↓↓↓↓▉▉▉",
+    "init_pos": [6,12],
+    "exits": {
+        "9,11" : ["Hostel 7 Floor 4",[66,121]],
+        "9,12" : ["Hostel 7 Floor 4",[66,122]],
+        "9,13" : ["Hostel 7 Floor 4",[66,122]],
+        "9,14" : ["Hostel 7 Floor 4",[66,123]]
+},
+    "items": {
+       "Bored PhD": [3, 13],
+       "Gurpreet Sita Rahim Mary Insaan": [4, 13],
+       "Annoyed Gurpreet": [5, 13]
+    },
+    "items_on_startup": ["Gurpreet Sita Rahim Mary Insaan"]
+}
