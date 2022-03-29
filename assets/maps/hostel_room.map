@@ -24,6 +24,9 @@
         "ID Card": [3, 7],
         "Laptop": [5, 7],
         "Movie Poster": [7, 1],
-        "Unknown Letter": [4, 7]
-    }
+        "Unknown Letter": [4, 7],
+        "Bed": [6, 3],
+        "Comfy Bed": [6, 5]
+    },
+    "items_on_startup": ["Dear Diary,", "SuDoKu", "ID Card", "Laptop", "Movie Poster", "Unknown Letter", "Bed"]
 }

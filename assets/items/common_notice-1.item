@@ -2,6 +2,6 @@
     "name": "Notice Board 1/3",
     "desc": "Let's see what's on the hostel notice board.",
     "need_input": false,
-    "media_path": "image::assets/media/hostel-notice 1.png",
+    "media_path": "image::assets/media/hostel-notice-1.png",
     "collectable": false
 }

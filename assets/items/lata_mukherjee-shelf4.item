@@ -2,6 +2,6 @@
     "name": "Shelf4",
     "desc": "This shop is full of things.",
     "need_input": false,
-    "media_path": "image::assets/media/shelf images/Lata4.jpeg",
+    "media_path": "image::assets/media/shelf images/lata4.jpeg",
     "collectable": false 
 }

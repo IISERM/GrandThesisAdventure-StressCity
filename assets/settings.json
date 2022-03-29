@@ -1,8 +1,8 @@
 {
     "player": "",
     "viewport": [
-        61,
-        29
+        100,
+        35
     ],
     "itemspath": "assets/items",
     "mapspath": "assets/maps",

@@ -2,6 +2,6 @@
     "name": "Notice 3/3",
     "desc": "Let's see what's on the AB notice board.",
     "need_input": false,
-    "media_path": "image::assets/media/ab_reception-notice - 3.png",
+    "media_path": "image::assets/media/ab_reception-notice-3.png",
     "collectable": false
 }

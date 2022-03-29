@@ -16,7 +16,7 @@ geometry: margin=1in
 7. LHC - You _know_ what this is.
 8. Admin - Important people like the security guard who **protects** the admin building sit here.
 9. Library - There is good AC here. Nothing else of any real interest
-10. AB 1 and 2 - The scientific grounds of IISER Mohali. There's a _Quantum Computer_ here. Eventually there will be one hopefully.
+10. AB 1 and 2 - The scientific grounds of IISER Mohali. There's a _Quantum Computer_ here... eventually there will be one hopefully.
 
 ![The image of the map](../assets/media/map-initial.png)
 

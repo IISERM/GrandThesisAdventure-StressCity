@@ -1,0 +1,6 @@
+{
+    "name": "Bed",
+    "desc": "My bedsheets need to be cleaned, but I have so much work to do...",
+    "need_input": false,
+    "collectable": false
+}
