@@ -1,6 +1,7 @@
 {
     "name": "Sign Outside 308",
+    "answerhash": "865fe807bb0ed8ffba5fcfd7c12269f5",
     "desc": "QUIZE TIME!!!!\nWhat is the oldest club at IISER Mohali?",
-    "need_input": false,
+    "need_input": true,
     "collectable": false
 }

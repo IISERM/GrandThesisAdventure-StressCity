@@ -112,5 +112,7 @@
 		"18,7" : ["Hostel 8 Floor 7",[20,4]],
 		"18,6" : ["Hostel 8 Floor 7",[20,4]]
 	},
-    "items": {}
+    "items": {
+        "Bottle Thrown Into INST": [78, 102]
+    }
 }

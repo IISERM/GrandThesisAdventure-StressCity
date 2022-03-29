@@ -12,10 +12,10 @@
 ▉▉▉▉▉▉▉▉▉▉▉↓↓↓↓▉▉▉",
     "init_pos": [6,12],
     "exits": {
-        "9,11" : ["Hostel 7 Floor 4",[66,121]],
-        "9,12" : ["Hostel 7 Floor 4",[66,122]],
-        "9,13" : ["Hostel 7 Floor 4",[66,122]],
-        "9,14" : ["Hostel 7 Floor 4",[66,123]]
+        "9,11" : ["Hostel 7 Floor 4",[66,124]],
+        "9,12" : ["Hostel 7 Floor 4",[66,124]],
+        "9,13" : ["Hostel 7 Floor 4",[66,124]],
+        "9,14" : ["Hostel 7 Floor 4",[66,124]]
 },
     "items": {
         "Dear Diary,": [3, 13],
