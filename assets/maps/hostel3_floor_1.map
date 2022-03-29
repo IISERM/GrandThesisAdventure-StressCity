@@ -127,10 +127,14 @@
 		"5,112" : ["Hostels",[175,506]],
 		"5,113" : ["Hostels",[175,506]],
 		"5,114" : ["Hostels",[175,506]]
-		},		                                        
+		},
     "items": {
 		"Notice Board 1/3": [11, 88],
 		"Notice Board 2/3": [10, 88],
-		"Notice Board 3/3": [9, 88]
-	}		                                        
+		"Notice Board 3/3": [9, 88],
+    "Broken Elevators 1": [64, 165],
+    "Broken Elevators 2": [64, 36],
+    "Mess Changes": [26, 140],
+    "Wing Crossover": [28, 100]
+	}
 }
