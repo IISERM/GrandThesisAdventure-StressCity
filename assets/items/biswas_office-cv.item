@@ -1,7 +1,0 @@
-{
-    "name": "CV",
-    "desc": "You: Thank You for taking me as a thesis student. I will keep my CV here.\n Oops!! I am so sorry, I spilt your coffee. \n Biswas: It's fine, I will clean it, just can't find the mop.\n You: I will get you a mop from the shopping complex. My apologies for the mess.",
-    "need_input": false,
-    "code_file": "assets/items/code/biswas_office-cv.py",
-    "collectable": false
-}

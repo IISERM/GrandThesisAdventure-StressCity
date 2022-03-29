@@ -1,6 +1,6 @@
 {
     "name": "Biswas Elated",
-    "desc": "Biswas: Hmm, I am happy with your work. I will consider. Leave your CV on the desk behind me.",
+    "desc": "Dr. Biswas: Yes! That's it! \nYou: Really?! I didn't expec- *spills coffee on the table* \nYou: F*ck! I am so sorry sir. I will clean this immediately... so sorry \nDr. Biswas: It's fi- \n*You leave for shopping complex to get a cleaning cloth*",
     "need_input": false,
     "code_file": "assets/items/code/biswas_office-biswas elated.py",
     "collectable": false
