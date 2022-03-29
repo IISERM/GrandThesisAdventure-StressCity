@@ -1,0 +1,6 @@
+{
+    "name": "Bored PhD",
+    "desc": "Get out of here before the Turing Overlords disqualify you",
+    "need_input": false,
+    "collectable": false
+}
