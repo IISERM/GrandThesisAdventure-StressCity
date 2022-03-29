@@ -1,0 +1,7 @@
+{
+    "name": "Map of Campus",
+    "desc": "A map of IISER Mohali",
+    "need_input": false,
+    "media_path": "image::assets/media/map initial.png",
+    "collectable": false
+}

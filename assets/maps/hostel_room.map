@@ -22,6 +22,7 @@
         "SuDoKu": [4, 13],
         "ID Card": [3, 7],
         "Laptop": [5, 7],
-        "Movie Poster": [7, 1]
+        "Movie Poster": [7, 1],
+        "Unknown Letter": [4, 7]
     }
 }
