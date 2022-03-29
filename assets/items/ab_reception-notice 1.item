@@ -1,0 +1,7 @@
+{
+    "name": "Notice 1/3",
+    "desc": "Let's see what's on the AB notice board.",
+    "need_input": false,
+    "media_path": "image::assets/media/ab_reception-notice - 1.png",
+    "collectable": false
+}

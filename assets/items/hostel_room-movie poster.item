@@ -1,0 +1,7 @@
+{
+    "name": "Movie Poster",
+    "desc": "Ah, that's my favourite movie",
+    "need_input": false,
+    "media_path": "image::assets/media/Hari Potter.jpeg",
+    "collectable": false
+}
