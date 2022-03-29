@@ -56,7 +56,12 @@
     "items": {
         "Pay": [5, 32],
         "Tender": [17, 34],
-		"Biswas PhD": [16,47]
+		"Biswas PhD": [16,47],
+		"Shelf1": [15, 55],
+		"Shelf2": [25, 55],
+		"Shelf3": [27, 17],
+		"Shelf4": [14, 8],
+		"Shelf5": [10, 8]
     },
     "items_on_startup": ["Tender"]
 }

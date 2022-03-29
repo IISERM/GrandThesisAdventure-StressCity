@@ -114,6 +114,6 @@
     "items": {
 		"Map of Campus": [54, 66],
 		"Map of Campus(Vandalised)": [54, 67]
-	}
+	},
 	"items_on_startup": ["Map of Campus"]
 }
