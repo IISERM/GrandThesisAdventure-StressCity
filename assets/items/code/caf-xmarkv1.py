@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 game.active_map.remove_item("X Marks The Spot!", game)
 game.active_map.place_item("X Marks The Spot", game)
-game.gadgets.Phone.mediaPath = "image::assets/media/phone/4.png"
+game.gadgets[3].mediaPath = "image::assets/media/phone/4.png"
 
 yogiPopupLayout = [
             [sg.Text("The Voice", justification='center', font='Serif 13', expand_x=True)],
