@@ -2,5 +2,6 @@
     "name": "Drunk Boi",
     "desc": "lmao I heard they drunk dialled their professor xD",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

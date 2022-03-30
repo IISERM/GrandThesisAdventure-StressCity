@@ -2,5 +2,6 @@
     "name": "Couple",
     "desc": "Couples are gross... I am so lonely :(",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

@@ -2,5 +2,6 @@
     "name": "Not Dead Professor",
     "desc": "I am not dead (yet).",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "ﮊ"
 }

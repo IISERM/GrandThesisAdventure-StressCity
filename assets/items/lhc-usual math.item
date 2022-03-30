@@ -1,6 +1,8 @@
 {
     "name": "Usual Math",
-    "desc": "These math profs and their cat fights again..",
+    "desc": "These profs and their email thread fights..",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "﯍"
+
 }

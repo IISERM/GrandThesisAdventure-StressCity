@@ -2,5 +2,6 @@
     "name": "Random Max Fan",
     "desc": "Max Max Max\nSuper Max Max\nSuper super Max Max Max\nSuper Max Max\nSuper super Max Max Max\nSuper Max Max\nSuper super Max Max Max\nSuper Max Max",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

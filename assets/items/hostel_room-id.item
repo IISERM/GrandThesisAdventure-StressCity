@@ -3,5 +3,6 @@
     "desc": "Oh, my ID card, must be careful not to lose it. Might have to file an FIR otherwise.",
     "need_input": false,
     "media_path": "image::assets/media/card.png",
-    "collectable": true
+    "collectable": true,
+    "char": ""
 }

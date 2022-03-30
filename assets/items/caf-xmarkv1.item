@@ -6,5 +6,6 @@
     "need_input": true,
     "code_file": "assets/items/code/caf-xmarkv1.py",
     "media_file": "assets/media/spotify-code",
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

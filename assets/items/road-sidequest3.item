@@ -5,5 +5,6 @@
     "need_input": true,
     "media_path": "link::https://iiserm.github.io/GTA-Stress-City/S3chdby/SCpdf1.pdf",
     "code_file": "assets/items/code/road-sidequest3.py",
-    "collectable": false
+    "collectable": false,
+    "char": "¿"
 }

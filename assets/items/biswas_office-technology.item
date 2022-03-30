@@ -4,5 +4,6 @@
     "desc": "You: Hello si-\nDr. Sawsib: It's on the tip of my tongue, what is it called? That technology! Argh, I can't think... Could you help me?",
     "code_file": "assets/items/code/biswas_office-technology.py",
     "need_input": true,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

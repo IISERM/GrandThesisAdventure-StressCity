@@ -3,5 +3,6 @@
     "desc": "Dr. Sawsib: Yes! That's it! \nYou: Really?! I didn't expec- *spills coffee on the table* \nYou: F*ck! I am so sorry sir. I will clean this immediately... so sorry \nDr. Sawsib: It's fi- \n*You leave for shopping complex to get a Mop*",
     "need_input": false,
     "code_file": "assets/items/code/biswas_office-biswas elated.py",
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

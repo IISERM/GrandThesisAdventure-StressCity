@@ -2,5 +2,6 @@
     "name": "Light Blue Bottle",
     "desc": "Oh found a light blue bottle... I wonder who it belongs to.",
     "need_input": false,
-    "collectable": true
+    "collectable": true,
+    "char": ""
 }

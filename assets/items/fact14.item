@@ -4,5 +4,6 @@
     "need_input": false,
     "code_file": "assets/items/code/fact14.py",
     "media_path": "image::assets/media/facts/14.png",
-    "collectable": false
+    "collectable": false,
+    "char": "裂"
 }

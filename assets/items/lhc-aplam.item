@@ -2,5 +2,6 @@
     "name": "Aplam",
     "desc": "\"Excuse me sir....pls sir\"\nWhy does this guy keep asking people to excuse him",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "﫭"
 }

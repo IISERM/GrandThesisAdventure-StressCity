@@ -2,5 +2,6 @@
     "name": "Le MS20s",
     "desc": "++",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "駱"
 }

@@ -3,5 +3,6 @@
     "char": "X",
     "desc": "For help contact faceless.yogi@gmail.com",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

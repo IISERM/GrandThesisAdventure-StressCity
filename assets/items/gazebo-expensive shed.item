@@ -2,5 +2,6 @@
     "name": "Expensive Shed",
     "desc": "was it 15 lakhs? 50 lakhs? 80 lakhs?",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "₹"
 }

@@ -1,6 +1,7 @@
 {
     "name": "Boars",
-    "desc": "Holy shit thats a wild boar... why's it sniffing some white poeder tho-",
+    "desc": "Holy shit thats a wild boar... why's it sniffing some white powder tho-",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "豈"
 }
