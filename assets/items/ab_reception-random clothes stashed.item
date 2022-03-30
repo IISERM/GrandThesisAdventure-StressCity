@@ -2,5 +2,6 @@
     "name": "Random Clothes Stashed",
     "desc": "Huh...weird smelly clothes here..............\nwait isn't this mine?!?!",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }
