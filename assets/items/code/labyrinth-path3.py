@@ -7,7 +7,7 @@ sg.popup_no_buttons(message, auto_close = True, auto_close_duration = 2, no_titl
 
 labyrinthEndPopupLayout = [
             [sg.Text("You have solved the Labyrinth.", justification='center', font='Serif 13', expand_x=True)],
-            [sg.Text("Share a screenshot of this popup with the organizers. If you are the first team to reach here, you will win.", size=(50, None))],
+            [sg.Text("Share a screenshot of ^this^ _popup_ with the <organizers>. Move forward to claim an artifact, or head back to continue your journey.", size=(50, None))],
             [],
             [sg.Button("Close", expand_x=True)]
         ]
