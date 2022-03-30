@@ -1,0 +1,8 @@
+{
+    "name": "Trigger",
+    "desc": "...I dont think I'm supposed to be here...",
+    "char": " ",
+    "need_input": false,
+    "code_file": "assets/items/code/labyrinth-trigger.py",
+    "collectable": false
+}
