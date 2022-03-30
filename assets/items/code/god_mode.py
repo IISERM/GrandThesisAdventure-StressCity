@@ -1,6 +1,6 @@
-# codes = ["ABr", "ABs", "Biswas", "CAF", "CC", "Gazebo", "SR", "PHD", "Room", "Hostels", "Labyrinth", "SC", "Lata", "LHC", "Road"]
+# codes = ["ABr", "ABs", "Sawsib", "CAF", "CC", "Gazebo", "SR", "PHD", "Room", "Hostels", "Labyrinth", "SC", "Lata", "LHC", "Road"]
 codes = ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']
-areas = ["AB Reception", "AB1 AB2", "Biswas Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
+areas = ["AB Reception", "AB1 AB2", "Sawsib Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
 tp_dict = dict(zip(codes, areas))
 
 lt = [
@@ -30,7 +30,6 @@ while True:
             win["in"].update(value = "", background_color="#4d4d4d")
 
     elif event=="Close":
-        self.perform_success(game)
         break
     else:
         break

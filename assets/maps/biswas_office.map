@@ -1,5 +1,5 @@
 {
-    "name": "Biswas Office",
+    "name": "Sawsib Office",
     "raw": "▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 ▉               ▉
 ▉              →|
@@ -20,11 +20,11 @@
 	    "4,18" : ["AB Reception",[5,9]]
     },
     "items": {
-        "Busy Biswas": [6, 16],
-        "Biswas Elated": [7, 12],
+        "Busy Sawsib": [6, 16],
+        "Sawsib Elated": [7, 12],
         "A Mysterious MP3 Player": [8, 1],
         "Find PhD": [6, 18],
         "Exhausted": [3, 15]
     },
-    "items_on_startup": ["Busy Biswas", "Exhausted", "A Mysterious MP3 Player"]
+    "items_on_startup": ["Busy Sawsib", "Exhausted", "A Mysterious MP3 Player"]
 }

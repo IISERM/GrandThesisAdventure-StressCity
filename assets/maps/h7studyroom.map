@@ -39,7 +39,7 @@
     "init_pos": [20,30],
     "exits": {},
     "items": {
-        "Teleporter": [1, 1],
+        "Portkey": [1, 1],
         "Campus Map": [6, 31]
     }
 }

@@ -1,7 +1,7 @@
 {
     "name": "Atal Mukherjee (Expectant)",
     "answerhash": "c94a99df03c7d02bc69f7f40f0cd39e5",
-    "desc": "Atal: Aapko kya chahiye? \n You: Mop. \n Atal: Beta, mera PayTM kaam nahi kar raha hain, Bhim UPI par pay kar do.",
+    "desc": "Atal: Aapko kya chahiye? \nYou: Mop. \nAtal: Beta, mera PayTM kaam nahi kar raha hain, Bhim UPI par pay kar do.",
     "need_input": true,
     "code_file": "assets/items/code/lata_mukherjee-pay.py",
     "collectable": false
