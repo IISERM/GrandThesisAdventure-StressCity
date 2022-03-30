@@ -55,8 +55,8 @@ class Phone(gadgets.Gadget):
             count += 1
         if self.phdNotifications and count == 5:
             sg.popup_no_buttons("You have a notification", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
-            game.map("raod").place_item("Map of Campus(Vandalised)")
-            game.map("raod").remove_item("Map of Campus")
+            game.map("Road").place_item("Map of Campus(Vandalised)", game)
+            game.map("Road").remove_item("Map of Campus", game)
             game.map("CAF").place_item("X Marks The Spot!", game)
             self.mediaPath = "image::assets/media/phone/3.png"
             self.phdNotifications = False
