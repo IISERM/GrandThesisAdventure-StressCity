@@ -7,7 +7,7 @@ class StressMeter(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Stress Meter")
         self.val = 25
-        self.stressRatePerIteration = 0.01
+        self.stressRatePerIteration = 0.008
         self.isBroken = False
 
     def stress_saying(self):
@@ -41,22 +41,23 @@ class Phone(gadgets.Gadget):
         super().__init__("Phone")
         self.phdNotifications = False
         self.mediaPath = "image::assets/media/phone/1.png"
+        self.count = 0
 
     def render_content(self):
-        return sg.Button("View Notifications", key = "OPEN-PHONE")
+        return sg.Button("Phone", key = "OPEN-PHONE")
         
     def update(self, game, event):
-        count = 0
         if event == "OPEN-PHONE":
             helpers.play_media(self.mediaPath)
             
         if self.phdNotifications and random.random()<0.013 :
             sg.popup_no_buttons("I should check my phone, if there's a message from the PhD...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
-            count += 1
-        if self.phdNotifications and count == 5:
+            self.count += 1
+
+        if self.phdNotifications and self.count >= 5:
             sg.popup_no_buttons("You have a notification", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
-            game.map("raod").place_item("Map of Campus(Vandalised)")
-            game.map("raod").remove_item("Map of Campus")
+            game.map("Road").place_item("Map of Campus(Vandalised)", game)
+            game.map("Road").remove_item("Map of Campus", game)
             game.map("CAF").place_item("X Marks The Spot!", game)
             self.mediaPath = "image::assets/media/phone/3.png"
             self.phdNotifications = False
