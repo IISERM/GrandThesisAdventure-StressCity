@@ -11,6 +11,6 @@ endGameMsg = sg.Window("The End", layout=endGameMsgLayout, modal=True, keep_on_t
 endGameMsg.bind("<Escape>", "Close")
 while True:
     e, v = endGameMsg.read()
-    if e == "Close" or e == "WIN-CLOSED":
+    if e == "Close" or e == "WIN_CLOSED":
         break
 endGameMsg.close()
