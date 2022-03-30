@@ -15,6 +15,6 @@ labyrinthPopup = sg.Window("Well Done", layout=labyrinthEndPopupLayout, modal=Tr
 labyrinthPopup.bind("<Escape>", "Close")
 while True:
     e, v = labyrinthPopup.read()
-    if e == "Close" or e == "WIN_CLOSED":
+    if e == "Close" or e == sg.WIN_CLOSED:
         break
 labyrinthPopup.close()

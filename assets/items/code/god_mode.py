@@ -29,7 +29,7 @@ while True:
             sg.popup_no_buttons("Invalid input!", auto_close = True, auto_close_duration = 1, no_titlebar = True, modal = True,  background_color = "#4D4D4D")
             win["in"].update(value = "", background_color="#4d4d4d")
 
-    elif event=="Close":
+    elif event=="Close" or event==sg.WIN_CLOSED:
         break
     else:
         break
