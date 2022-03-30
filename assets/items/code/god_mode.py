@@ -30,7 +30,6 @@ while True:
             win["in"].update(value = "", background_color="#4d4d4d")
 
     elif event=="Close":
-        self.perform_success(game)
         break
     else:
         break
