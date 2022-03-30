@@ -7,7 +7,7 @@ class StressMeter(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Stress Meter")
         self.val = 25
-        self.stressRatePerIteration = 0.01
+        self.stressRatePerIteration = 0.008
         self.isBroken = False
 
     def stress_saying(self):
@@ -53,6 +53,7 @@ class Phone(gadgets.Gadget):
         if self.phdNotifications and random.random()<0.013 :
             sg.popup_no_buttons("I should check my phone, if there's a message from the PhD...", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             self.count += 1
+
         if self.phdNotifications and self.count >= 5:
             sg.popup_no_buttons("You have a notification", auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             game.map("Road").place_item("Map of Campus(Vandalised)", game)
