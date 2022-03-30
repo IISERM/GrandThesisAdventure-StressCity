@@ -4,12 +4,12 @@ game.active_map.place_item("X Marks The Spot", game)
 game.gadgets[3].mediaPath = "image::assets/media/phone/4.png"
 
 yogiPopupLayout = [
-            [sg.Text("The Voice", justification='center', font='Serif 13', expand_x=True)],
-            [sg.Text("faceless.yogi@gmail.com", size=(50, None))],
+            [sg.Text("There's a message from heaven", justification='center', font='Serif 13', expand_x=True)],
+            [sg.Text("I have solutions to all your problems. For help, contact faceless.yogi@gmail.com", size=(50, None))],
             [],
             [sg.Button("Close", expand_x=True)]
         ]
-yogiPopup = sg.Window("There's a message from heaven", layout=yogiPopupLayout, modal=True, keep_on_top=True, finalize=True)
+yogiPopup = sg.Window("The Voice", layout=yogiPopupLayout, modal=True, keep_on_top=True, finalize=True)
 yogiPopup.bind("<Escape>", "Close")
 while True:
     e, v = yogiPopup.read()
