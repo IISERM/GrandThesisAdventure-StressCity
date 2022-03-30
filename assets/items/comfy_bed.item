@@ -3,5 +3,6 @@
     "desc": "The bed looks comfy, its quite late, I could do with some rest... what should I do",
     "need_input": true,
     "answerhash": "15a0b31cd95b4bace3dec5dd0fe1ab48",
+    "code_file": "assets/items/code/comfy_bed.py"
     "collectable": false
 }

@@ -9,6 +9,7 @@ class StressMeter(gadgets.Gadget):
         self.val = 25
         self.stressRatePerIteration = 0.008
         self.isBroken = False
+        self.isActive = True
 
     def stress_saying(self):
         return random.choice([
@@ -26,13 +27,16 @@ class StressMeter(gadgets.Gadget):
         return sg.ProgressBar(100, orientation='h', size=(30, 10), key=self.name.lower(), expand_x=True, pad=10)
 
     def update(self, game, event):
-        self.val += self.stressRatePerIteration
-        if self.val > 100 and not self.isBroken:
-            self.isBroken = True
-            sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
-                                auto_close=True, auto_close_duration=3, no_titlebar=True, modal=True)
-        elif self.val > 100 and self.isBroken and self.val%50 == 0:
-            sg.popup_no_buttons(self.stress_saying(), auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+        if self.isActive:
+            self.val += self.stressRatePerIteration
+            if self.val > 100 and not self.isBroken:
+                self.isBroken = True
+                sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
+                                    auto_close=True, auto_close_duration=3, no_titlebar=True, modal=True)
+            elif self.val > 100 and self.isBroken and self.val%50 == 0:
+                sg.popup_no_buttons(self.stress_saying(), auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
+            else:
+                game.window[self.name.lower()].UpdateBar(self.val)
         else:
             game.window[self.name.lower()].UpdateBar(self.val)
 
