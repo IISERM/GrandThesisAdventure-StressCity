@@ -5,7 +5,7 @@
     "desc": "Listen to this man,\nto what he has to say\nin the intro\nto the footage he found.\nWhat he seeks\nis what you need",
     "need_input": true,
     "code_file": "assets/items/code/caf-xmarkv1.py",
-    "media_file": "assets/media/spotify-code",
+    "media_file": "image::assets/media/spotify-code",
     "collectable": false,
     "char": ""
 }
