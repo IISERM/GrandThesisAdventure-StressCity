@@ -1,5 +1,5 @@
 {
-    "name": "door",
+    "name": "Door",
     "character": "*",
     "walkable": true
 }
