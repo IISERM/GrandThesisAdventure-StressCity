@@ -29,6 +29,8 @@ class StressMeter(gadgets.Gadget):
     def update(self, game, event):
         if self.isActive:
             self.val += self.stressRatePerIteration
+            if self.val % 1 == 0:
+                print(self.val)
             if self.val > 100 and not self.isBroken:
                 self.isBroken = True
                 sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
