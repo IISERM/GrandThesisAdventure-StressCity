@@ -1,6 +1,6 @@
 {
     "name": "Find PhD",
-    "desc": "*You come back to find the table is already clean* \nDr. Biswas: Why did you go in such a hurry? I got the table cleaned meanwhile. Also, I looked at your CV, its quite impressive. Till then you can contact my PhD, she's quite famous. You must seen the facts around the campus. I'm told there are 14 of them. Legend has it that only a true Grammar Nazi can find her.\nYou: (confused) Alright, whatever you say, sir",
+    "desc": "*You come back to find the table is already clean* \nDr. Sawsib: Why did you go in such a hurry? I got the table cleaned meanwhile. Also, I looked at your CV, its quite impressive. Till then you can contact my PhD, she's quite famous. You must seen the facts around the campus. I'm told there are 14 of them. Legend has it that only a true Grammar Nazi can find her.\nYou: (confused) Alright, whatever you say, sir",
     "need_input": false,
     "code_file": "assets/items/code/biswas_office-facts.py",
     "collectable": false

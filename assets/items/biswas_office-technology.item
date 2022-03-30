@@ -1,7 +1,7 @@
 {
-    "name": "Busy Biswas",
+    "name": "Busy Sawsib",
     "answerhash": "9abfc3fa0a586782b875ee02ad45dcd8",
-    "desc": "You: Hello si-\nDr. Biswas: It's on the tip of my tongue, what is it called? That technology! Argh, I can't think... Could you help me?",
+    "desc": "You: Hello si-\nDr. Sawsib: It's on the tip of my tongue, what is it called? That technology! Argh, I can't think... Could you help me?",
     "code_file": "assets/items/code/biswas_office-technology.py",
     "need_input": true,
     "collectable": false
