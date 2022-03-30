@@ -2,5 +2,6 @@
     "name": "Aplam",
     "desc": "\"Excuse me sir....pls sir\"",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "﫭"
 }

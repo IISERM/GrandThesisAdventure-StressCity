@@ -4,5 +4,6 @@
     "char": "♅",
     "need_input": false,
     "code_file": "assets/items/code/god_mode.py",
-    "collectable": true
+    "collectable": true,
+    "char": "滛"
 }

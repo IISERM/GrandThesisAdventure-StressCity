@@ -2,5 +2,6 @@
     "name": "Wing Crossover",
     "desc": "Nice! I can go to the other wing, I better use this freedom with caution!",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

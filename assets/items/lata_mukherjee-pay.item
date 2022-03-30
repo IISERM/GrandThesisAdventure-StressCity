@@ -4,5 +4,6 @@
     "desc": "Atal: Aapko kya chahiye? \nYou: Mop. \nAtal: Beta, mera PayTM kaam nahi kar raha hain, Bhim UPI par pay kar do.",
     "need_input": true,
     "code_file": "assets/items/code/lata_mukherjee-pay.py",
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

@@ -2,5 +2,6 @@
     "name": "Singles Club",
     "desc": "Aye man... feel so lonely here in this large map... wheres the singles club.",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "1"
 }

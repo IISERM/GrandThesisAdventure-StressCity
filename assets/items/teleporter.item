@@ -4,5 +4,6 @@
     "desc": "This is a teleporting machine! This will take you to your room. That's where the hunt for a thesis guide begins. Type in the passkey to activate!",
     "need_input": true,
     "code_file": "assets/items/code/teleporter.py",
-    "collectable": false
+    "collectable": false,
+    "char": "ﴚ"
 }

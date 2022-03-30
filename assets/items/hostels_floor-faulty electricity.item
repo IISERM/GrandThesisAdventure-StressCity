@@ -3,5 +3,6 @@
     "char": " ",
     "desc": "Shit the lights went off..oh they came back...nvm they went again, also why are these people shouting?",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

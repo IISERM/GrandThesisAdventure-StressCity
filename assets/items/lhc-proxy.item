@@ -2,5 +2,6 @@
     "name": "Proxy",
     "desc": "Office Order: New appointment for Faculty Incharge...\nWow, the HeadCC is changing faster than the Proxy...",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": "睊"
 }

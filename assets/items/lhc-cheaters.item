@@ -2,5 +2,6 @@
     "name": "Shame Shame Puppy Shame",
     "desc": "Gross, these people cheat in exams, good that they got caught. *deletes chat history* (•_•)",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

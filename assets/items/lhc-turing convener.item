@@ -1,6 +1,7 @@
 {
     "name": "Turing Convener",
-    "desc": "What is this bullshit hunt organized. Who's the convener of this stupid club ?!!",
+    "desc": "What is this bullshit hunt, so poorly organized. Who's the convener of this stupid club ?!!",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

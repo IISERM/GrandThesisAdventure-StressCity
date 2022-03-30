@@ -4,5 +4,6 @@
     "answerhash": "3c9cc070dfc30bbf85cb7c63a46a92c2",
     "need_input": true,
     "code_file": "assets/items/code/phd-active.py",
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

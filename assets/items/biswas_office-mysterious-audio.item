@@ -3,5 +3,6 @@
     "desc": "Oh there's a note on it - \nSeeing patterns everywhere?\nYour first thought isn't always right.\nPerhaps its time to bin the morse,\nand embrace some lateral thinking.\nRun to some windows,\ntell it what you get,\nWhere it takes you\nis what you're looking for",
     "need_input": false,
     "media_path": "mp3::assets/media/audio.mp3",
-    "collectable": true
+    "collectable": true,
+    "char": ""
 }

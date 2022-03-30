@@ -2,5 +2,6 @@
     "name": "Mayukh",
     "desc": "OMW to help the lost soul with his poster, iske liye sketch pens nikale.",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

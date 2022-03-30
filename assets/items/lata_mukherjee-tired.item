@@ -2,5 +2,6 @@
     "name": "Atal Mukherjee (Tired)",
     "desc": "Atal: Shop band ho rahi hai",
     "need_input": false,
-    "collectable": false
+    "collectable": false,
+    "char": ""
 }

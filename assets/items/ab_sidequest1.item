@@ -4,5 +4,6 @@
     "answerhash": "d2626f412da748e711ca4f4ae9428664",
     "need_input": true,
     "code_file": "assets/items/code/community_centre-sidequest1.py",
-    "collectable": false
+    "collectable": false,
+    "char": "¿"
 }
