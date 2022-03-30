@@ -120,5 +120,5 @@
 		"Jammed door": [29,130],
 		"Wrench": [72, 149]
     },
-    "items_on_startup": ["Jammed door"]
+    "items_on_startup": ["Jammed door", "Fact13"]
 }
