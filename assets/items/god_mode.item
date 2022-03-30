@@ -1,6 +1,6 @@
 {
     "name": "God Mode",
-    "desc": "A strange rune having an unnatural glow. \nTeleport anywhere, at will. \nKeys: ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']",
+    "desc": "A strange rune having an unnatural glow.",
     "char": "♅",
     "need_input": false,
     "code_file": "assets/items/code/god_mode.py",
