@@ -1,0 +1,1 @@
+game.map("AB1 AB2").remove_item("Side Quest 2")

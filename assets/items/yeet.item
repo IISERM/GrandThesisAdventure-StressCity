@@ -1,0 +1,7 @@
+{
+    "name": "Yeet",
+    "desc": "You're welcome :)",
+    "need_input": false,
+    "code_file": "assets/items/code/yeet.py",
+    "collectable": false
+}

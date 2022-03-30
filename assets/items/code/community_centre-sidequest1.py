@@ -1,0 +1,1 @@
+game.map("AB1 AB2").place_item("Side Quest 1 Answer?", game)

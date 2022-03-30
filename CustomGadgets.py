@@ -7,7 +7,7 @@ class StressMeter(gadgets.Gadget):
     def __init__(self, game):
         super().__init__("Stress Meter")
         self.val = 25
-        self.stressRatePerIteration = 0.001
+        self.stressRatePerIteration = 0.01
         self.isBroken = False
 
     def stress_saying(self):
@@ -31,7 +31,7 @@ class StressMeter(gadgets.Gadget):
             self.isBroken = True
             sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
                                 auto_close=True, auto_close_duration=3, no_titlebar=True, modal=True)
-        elif self.val > 100 and self.isBroken and self.val%500 == 0:
+        elif self.val > 100 and self.isBroken and self.val%50 == 0:
             sg.popup_no_buttons(self.stress_saying(), auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
         else:
             game.window[self.name.lower()].UpdateBar(self.val)

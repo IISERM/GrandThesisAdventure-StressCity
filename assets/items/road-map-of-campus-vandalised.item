@@ -1,0 +1,7 @@
+{
+    "name": "Map of Campus(Vandalised)",
+    "desc": "A map of IISER Mohali. Someone has vandalised it",
+    "need_input": false,
+    "media_path": "image::assets/media/map-vandalised.png",
+    "collectable": false
+}
