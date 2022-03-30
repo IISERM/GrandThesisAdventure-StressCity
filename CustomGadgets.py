@@ -43,7 +43,7 @@ class Phone(gadgets.Gadget):
         self.mediaPath = "image::assets/media/phone/1.png"
 
     def render_content(self):
-        return sg.Button("Phone", key = "OPEN-PHONE")
+        return sg.Button("View Notifications", key = "OPEN-PHONE")
         
     def update(self, game, event):
         count = 0
