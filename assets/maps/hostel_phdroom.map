@@ -12,10 +12,10 @@
 ▉▉▉▉▉▉▉▉▉▉▉↓↓↓↓▉▉▉",
     "init_pos": [6,12],
     "exits": {
-        "9,11" : ["Hostel 7 Floor 4",[66,121]],
-        "9,12" : ["Hostel 7 Floor 4",[66,122]],
-        "9,13" : ["Hostel 7 Floor 4",[66,122]],
-        "9,14" : ["Hostel 7 Floor 4",[66,123]]
+        "9,11" : ["Hostel 6 Floor 3",[66,122]],
+        "9,12" : ["Hostel 6 Floor 3",[66,122]],
+        "9,13" : ["Hostel 6 Floor 3",[66,123]],
+        "9,14" : ["Hostel 6 Floor 3",[66,123]]
 },
     "items": {
        "Bored PhD": [3, 13],
