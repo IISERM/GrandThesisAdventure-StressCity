@@ -19,6 +19,5 @@ class MyGame(terminal.Game):
 
 myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Hostel Room")
 myGame.pocket.append(myGame.item("Shoe"))
-myGame.pocket.append(myGame.item("Yeet"))
-myGame.pocket.append(myGame.item("Yeet Back"))
+myGame.pocket.append(myGame.item("God Mode"))
 myGame.run()
