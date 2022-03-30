@@ -13,7 +13,7 @@ yogiPopup = sg.Window("The Voice", layout=yogiPopupLayout, modal=True, keep_on_t
 yogiPopup.bind("<Escape>", "Close")
 while True:
     e, v = yogiPopup.read()
-    if e == "Close":
+    if e == "Close" or e == "WIN-CLOSED":
         break
 yogiPopup.close()
 
