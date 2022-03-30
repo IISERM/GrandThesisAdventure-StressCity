@@ -47,8 +47,19 @@ class Phone(gadgets.Gadget):
         self.mediaPath = "image::assets/media/phone/1.png"
         self.count = 0
 
+    def render(self):
+        return [
+            sg.Frame(
+                key=self.name.lower()+"_frame",
+                title="",
+                layout=[[self.render_content()]],
+                element_justification="center",
+                expand_x=True,
+                border_width=0
+        )]
+
     def render_content(self):
-        return sg.Button("Phone", key = "OPEN-PHONE")
+        return sg.Button("Phone", key = "OPEN-PHONE", expand_x = True, button_color = ("#ffffff", "#4D4D4D"))
         
     def update(self, game, event):
         if event == "OPEN-PHONE":
