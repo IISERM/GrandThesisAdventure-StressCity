@@ -17,7 +17,7 @@ geometry: margin=1in
 8. Admin - Important people like the security guard who **protects** the admin building sit here.
 9. Library - There is good AC here. Nothing else of any real interest
 10. AB 1 and 2 - The scientific grounds of IISER Mohali. There's a _Quantum Computer_ here... eventually there will be one hopefully.
-11. Hostels - There are actually only 4 hostels. But there are supposed to be 8. Where did the other 4 go? Well, much like elliptical curves, there are some things which we cannot understand.
+11. Hostels - There are actually only 4 hostels. But there are supposed to be 8. Where did the other 4 go? Well, much like **elliptical curves**, there are some things which we cannot understand.
 
 ![The image of the map](../assets/media/map-initial.png)
 
