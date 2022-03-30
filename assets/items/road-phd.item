@@ -1,0 +1,6 @@
+{
+    "name": "Students at the Gate",
+    "desc": "Hmm... looks like these PhD kids forgot their ID cards...",
+    "need_input": false,
+    "collectable": false
+}
