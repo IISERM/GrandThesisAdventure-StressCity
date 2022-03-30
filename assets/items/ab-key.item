@@ -1,0 +1,7 @@
+{
+    "name": "Key",
+    "desc": "This must open that cage I saw earlier.",
+    "char": "",
+    "need_input": false,
+    "collectable": true
+}
