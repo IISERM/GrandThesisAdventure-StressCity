@@ -1,10 +1,10 @@
 {
     "name": "Side Quest 2",
-    "desc": "What did I just do?",
+    "desc": "Do you want to activate the equipment?\n\n<Security Question> - \"What did I just do?\"",
     "answerhash": "667ff118ef6d196c96313aeaee7da519",
     "need_input": true,
     "media_path": "link::https://iiserm.github.io/GTA-Stress-City/S2bhffy/sidequest2.png",
     "code_file": "assets/items/code/ab-sidequest2.py",
     "collectable": false,
-    "char": "¿"
+    "char": "ﴽ"
 }

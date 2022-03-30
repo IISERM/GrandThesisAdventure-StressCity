@@ -1,0 +1,6 @@
+{
+    "name": "Broken Antenna",
+    "desc": "A small antenna with some complicated circuitry. I wonder if I can use this for something.",
+    "need_input": false,
+    "collectable": true
+}
