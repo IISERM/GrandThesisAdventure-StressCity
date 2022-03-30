@@ -5,7 +5,7 @@ tp_dict = dict(zip(codes, areas))
 
 lt = [
     [sg.Text("God Mode", justification='center', font='Serif 13', expand_x=True)],
-    [sg.Text("Teleport anywhere, at will.", size=(50, None))],
+    [sg.Text("Teleport anywhere, at will.\n\nKeys: ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']", size=(50, None))],
     [sg.Input(key="in", size=(50, None))],
     [sg.Button("Close", expand_x=True),
     sg.Button("Submit", expand_x=True, bind_return_key=True)]
