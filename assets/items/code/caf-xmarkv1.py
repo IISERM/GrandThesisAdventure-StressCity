@@ -17,5 +17,5 @@ while True:
         break
 yogiPopup.close()
 
-game.active_map.remove_item("Bed", game)
-game.active_map.place_item("Comfy Bed", game)
+game.map("Hostel Room").remove_item("Bed", game)
+game.map("Hostel Room").place_item("Comfy Bed", game)
