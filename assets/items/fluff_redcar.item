@@ -1,6 +1,6 @@
 {
     "name": "Red Sedan",
-    "desc": "A red sedan is approaching almost quasistatically...\n Why would someone be driving around at midnight?! This is pretty shady. But its probably not important. It's not like they're going to run over anybody.\nRight?\n\nRIGHT?",
+    "desc": "A red sedan is approaching almost quasistatically...\nWhy would someone be driving around at midnight?! This is pretty shady. But its probably not important. It's not like they're going to run over anybody.\nRight?\n\nRIGHT?",
     "need_input": false,
     "code_file": "assets/items/code/redcar.py",
     "collectable": false
