@@ -10,7 +10,7 @@ pip install -e ../turing-hunt-engine
 
 pyinstaller main.spec
 
-lddver=$(ldd --version | head -1 | cut -f4 -d' ' | tr '.' '-')
+lddver=$(ldd --version | head -1 | sed -E "s/(.*?) ([[:digit:]]+)/\2/g" | tr '.' '-')
 
 mv ./dist/main ./dist/main-$lddver
 
