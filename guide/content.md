@@ -21,3 +21,19 @@ geometry: margin=1in
 
 ![The image of the map](../assets/media/map-initial.png)
 
+$\pagebreak$
+
+# Hostel Map
+
+![Floor 1](./floormaps/Floor-1.png){ width=50% }
+![Floor 2](./floormaps/Floor-2.png){ width=50% }
+
+![Floor 3](./floormaps/Floor-3.png){ width=50% }
+![Floor 4](./floormaps/Floor-4.png){ width=50% }
+
+![Floor 5](./floormaps/Floor-5.png){ width=50% }
+![Floor 6](./floormaps/Floor-6.png){ width=50% }
+
+![Floor 7](./floormaps/Floor-7.png){ width=50% }
+![Floor 8](./floormaps/Floor-8.png){ width=50% }
+
