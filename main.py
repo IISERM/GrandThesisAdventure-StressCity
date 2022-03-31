@@ -32,4 +32,4 @@ myGame.run()
 # Case insensitive; GODMODE keys
 # ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']
 # ["AB Reception", "AB1 AB2", "Sawsib Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
-# [34, 44]
+
