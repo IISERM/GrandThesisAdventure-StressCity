@@ -1,0 +1,9 @@
+{
+    "name": "Pass Key",
+    "desc": "**SIDE QUEST 1**\n\nDo NOT enter. \nThis equipment transmits sensitive data not open to prying eyes. \n\n <Security Question> - \n\"Designed by Anders Hejlsberg from Microsoft in 2000 and was later approved as an international standard by Ecma in 2002 and ISO in 2003.\" \n\n What is this referring to?",
+    "char": "",
+    "answerhash": "240aa2cec4b29c56f3bee520a8dcee7e",
+    "need_input": true,
+    "code_file": "assets/items/code/community_centre-passkey.py",
+    "collectable": false
+}
