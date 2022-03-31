@@ -1,0 +1,6 @@
+{
+    "name": "Banana",
+    "desc": "An overripe banana.. What do I do with this?",
+    "need_input": false,
+    "collectable": true
+}

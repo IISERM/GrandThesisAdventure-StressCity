@@ -1,9 +1,9 @@
 {
     "name": "Side Quest 1 Answer?",
-    "desc": "Do you have the Notes?",
+    "desc": "Do you have the Notes in order?",
     "answerhash": "d2626f412da748e711ca4f4ae9428664",
     "need_input": true,
-    "code_file": "assets/items/code/community_centre-sidequest1.py",
+    "code_file": "assets/items/code/ab-sidequest1.py",
     "collectable": false,
-    "char": "¿"
+    "char": ""
 }
