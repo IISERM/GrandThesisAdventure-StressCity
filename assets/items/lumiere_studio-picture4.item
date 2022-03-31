@@ -1,8 +1,8 @@
 {
     "name": "Picture 4/6",
-    "desc": "By - -",
+    "desc": "@jetlite02",
     "need_input": false,
-    "media_path": "image::assets/media/lumiere_studio-picture4.png",
+    "media_path": "image::assets/media/lumiere_studio-picture4.jpeg",
     "collectable": false,
     "char": ""
 }

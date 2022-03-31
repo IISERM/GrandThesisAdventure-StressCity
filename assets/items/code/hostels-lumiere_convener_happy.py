@@ -1,6 +1,6 @@
 game.active_map.remove_item("Lumiere Convener (Happy)", game)
 
-# game.pocket.itemlist.remove(game.item("DSLR"))
+game.pocket.drop(game.item("DSLR"))
 game.pocket.append(game.item("QR code"))
 
 message = "You give the DSLR, and obtain a QR code."

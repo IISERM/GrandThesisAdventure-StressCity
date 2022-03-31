@@ -1,8 +1,8 @@
 {
     "name": "Picture 6/6",
-    "desc": "By - -",
+    "desc": "@jayashreenarayan_",
     "need_input": false,
-    "media_path": "image::assets/media/lumiere_studio-picture6.png",
+    "media_path": "image::assets/media/lumiere_studio-picture6.jpg",
     "collectable": false,
     "char": ""
 }
