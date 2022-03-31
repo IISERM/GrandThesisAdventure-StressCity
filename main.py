@@ -17,7 +17,7 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Down>", "down")
         self.window.bind("<KeyPress-Right>", "right")
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "AB1 AB2")
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Road")
 myGame.pocket.append(myGame.item("Shoe"))
 myGame.pocket.append(myGame.item("God Mode"))
 myGame.run()
