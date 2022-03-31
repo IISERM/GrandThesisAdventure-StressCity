@@ -1,5 +1,5 @@
 # codes = ["ABr", "ABs", "Sawsib", "CAF", "CC", "Gazebo", "SR", "PHD", "Room", "Hostels", "Labyrinth", "SC", "Lata", "LHC", "Road"]
-codes = ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']
+codes = ['abr', 'abs', 'sawsib', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'atal', 'lhc', 'road']
 areas = ["AB Reception", "AB1 AB2", "Sawsib Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
 tp_dict = dict(zip(codes, areas))
 
