@@ -1,0 +1,8 @@
+{
+    "name": "Light Switch",
+    "desc": "-FLICK- \nPhew, thank god the lights still work.",
+    "need_input": false,
+    "code_file": "assets/items/code/lumiere_studio-light_switch.py",
+    "collectable": false,
+    "char": "░"
+}

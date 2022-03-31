@@ -1,0 +1,8 @@
+{
+    "name": "Blocked Path",
+    "desc": "Huh? The path seems to be blocked by a mound of dirt..",
+    "char": "",
+    "need_input": false,
+    "code_file": "assets/items/code/hostels-blocked-path.py",
+    "collectable": false
+}

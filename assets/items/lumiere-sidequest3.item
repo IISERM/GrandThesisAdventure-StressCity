@@ -1,10 +1,10 @@
 {
     "name": "Side Quest 3",
-    "desc": "Look beneath the carpet.",
+    "desc": "Would you like to open the equipment storage unit?\n<Security Question> - Look beneath the carpet.",
     "answerhash": "50caca59db4643a804d8708a16e87583",
     "need_input": true,
     "media_path": "link::https://iiserm.github.io/GTA-Stress-City/S3chdby/SCpdf1.pdf",
-    "code_file": "assets/items/code/road-sidequest3.py",
+    "code_file": "assets/items/code/lumiere-sidequest3.py",
     "collectable": false,
-    "char": "¿"
+    "char": "⌨"
 }
