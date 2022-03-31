@@ -17,9 +17,12 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Down>", "down")
         self.window.bind("<KeyPress-Right>", "right")
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Road")
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "H7 Study Room")
 myGame.pocket.append(myGame.item("Shoe"))
 myGame.pocket.append(myGame.item("God Mode"))
+
+myGame.map("CAF").place_item("X Marks The Spot!", myGame)
+
 myGame.run()
 
 # Case insensitive; GODMODE keys
