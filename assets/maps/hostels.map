@@ -497,7 +497,8 @@
 		"Blocked Path": [1, 561],
 		"Shovel": [21, 480],
 		"Lumiere Convener": [123, 163],
-		"Lumiere Convener (Happy)": [123, 164]
+		"Lumiere Convener (Happy)": [123, 164],
+		"Red Sedan": [266, 138]
 	},
-	"items_on_startup": ["Shoe", "Aria Shade", "Couple", "Hostels 1-4 Not Found", "Amazon Guy Waiting", "A Deep Pit", "Mayukh", "Le MS20s", "Singles Club", "Drunk Boi", "Dj Night", "Fact1", "Fact2", "Fact5", "Fact6", "Fact9", "Fact10", "Fact11", "Fact12", "Faulty Electricity", "Smol Boi", "Blocked Path", "Lumiere Convener"]
+	"items_on_startup": ["Shoe", "Aria Shade", "Couple", "Hostels 1-4 Not Found", "Amazon Guy Waiting", "A Deep Pit", "Mayukh", "Le MS20s", "Singles Club", "Drunk Boi", "Dj Night", "Fact1", "Fact2", "Fact5", "Fact6", "Fact9", "Fact10", "Fact11", "Fact12", "Faulty Electricity", "Smol Boi", "Blocked Path", "Lumiere Convener", "Red Sedan"]
 }
