@@ -2,7 +2,7 @@
     "name": "Picture 5/6",
     "desc": "Ayush Gupta",
     "need_input": false,
-    "media_path": "image::assets/media/lumiere_studio-picture5.png",
+    "media_path": "image::assets/media/lumiere_studio-picture5.jpeg",
     "collectable": false,
     "char": ""
 }
