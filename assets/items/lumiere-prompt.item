@@ -1,0 +1,6 @@
+{
+    "name": "Dark Room",
+    "desc": "I cant see a thing... where is the light switch??",
+    "need_input": false,
+    "collectable": false
+}

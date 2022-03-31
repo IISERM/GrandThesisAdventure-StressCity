@@ -1,0 +1,8 @@
+{
+    "name": "Lumiere Convener (Happy)",
+    "desc": "Wow, you actually found it! Have this as a token of my gratitude.",
+    "need_input": false,
+    "code_file": "assets/items/code/hostels-lumiere_convener_happy.py",
+    "collectable": false,
+    "char": ""
+}

@@ -1,0 +1,7 @@
+{
+    "name": "DSLR",
+    "desc": "Fancy. I wonder if it still works though... Better get it back to the Lumiere convener.",
+    "need_input": false,
+    "collectable": true,
+    "char": ""
+}

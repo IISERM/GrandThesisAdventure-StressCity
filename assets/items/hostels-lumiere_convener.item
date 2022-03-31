@@ -1,0 +1,8 @@
+{
+    "name": "Lumiere Convener",
+    "desc": "We really need a new DSLR for the club... \nThere is a lumiere legend on the existence of an old photo-booth somewhere in the northern hostel area, but I can't find it. Could you check it out?",
+    "need_input": false,
+    "code_file": "assets/items/code/hostels-lumiere_convener.py",
+    "collectable": false,
+    "char": ""
+}

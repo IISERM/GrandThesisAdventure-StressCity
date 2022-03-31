@@ -1,0 +1,7 @@
+{
+    "name": "Shovel",
+    "desc": "A rusty old shovel. I hope it doesn't break.",
+    "need_input": false,
+    "collectable": true,
+    "char": "ﰎ"
+}
