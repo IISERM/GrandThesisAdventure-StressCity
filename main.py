@@ -1,9 +1,16 @@
 import os
+import PySimpleGUI as sg
+
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 from tetra import gadgets
 from tetra import terminal
+from tetra import helpers
 import CustomGadgets
+
+sg.popup_ok("""Make sure you install the font by clicking "Install Font" so that the game can run as expected""")
+
+helpers.open_with_default_app("assets/fira.ttf")
 
 class MyGame(terminal.Game):
     def __init__(self, title, settingsfile, gadgets_list, first_map=None, theme="Dark"):
@@ -18,13 +25,12 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Right>", "right")
 
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Community Centre")
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Hostel 7 Floor 1")
 myGame.pocket.append(myGame.item("Shoe"))
 myGame.pocket.append(myGame.item("God Mode"))
-
 myGame.run()
 
 # Case insensitive; GODMODE keys
 # ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']
 # ["AB Reception", "AB1 AB2", "Sawsib Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
-# [34, 44]
+
