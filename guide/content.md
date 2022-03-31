@@ -1,9 +1,26 @@
 ---
 title: A guide to IISER Mohali
+subtitle: And GrandThesisAdventure-StressCity
 date: \today
 author: Turing Club
 geometry: margin=1in
+urlcolor: cyan
 ---
+
+# How to run the game
+
+1. Download the game from the game website at [https://iiserm.github.io/GTA-Stress-City](https://iiserm.github.io/GTA-Stress-City) for your operating system.
+2. Run the game
+  1. For windows, simply double click the downloaded file
+  2. For linux, right click the file and check the box "Allow this file to be executed", or equivalent. Alternatively, run `chmod +x filename` on the file.
+3. The game will handle the rest. It may ask you to install a font.
+4. Enjoy!
+
+**Feel free to ask any questions if you have**
+
+## Mac
+
+We really tried to get it to work on Mac, but due to technical issues out of our hands, we were not able to. There will still be a built executable that you can run.
 
 # Places of interest
 
