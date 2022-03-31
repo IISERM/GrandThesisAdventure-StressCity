@@ -37,7 +37,7 @@
         "DSLR" : [4, 62],
         "Dark Room" : [17, 24],
         "Light Switch" : [16, 12],
-        "Side Quest 3" : [8, 46]
+        "Lumiere Terminal" : [8, 46]
     },
     "items_on_startup" : ["Dark Room", "Light Switch"]
 }

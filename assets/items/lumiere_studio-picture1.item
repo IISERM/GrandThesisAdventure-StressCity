@@ -1,8 +1,8 @@
 {
     "name": "Picture 1/6",
-    "desc": "By - -",
+    "desc": "@niranjan.ashok__",
     "need_input": false,
-    "media_path": "image::assets/media/lumiere_studio-picture1.png",
+    "media_path": "image::assets/media/lumiere_studio-picture1.jpg",
     "collectable": false,
     "char": ""
 }

@@ -1,6 +1,6 @@
 {
     "name": "Locked Cage",
-    "desc": "Do NOT enter. \nThis equipment is the property of AB1-1F3.",
+    "desc": "**SIDE QUEST**\n\nDo NOT enter. \nThis equipment is the property of AB1-1F3.",
     "char": "",
     "need_input": false,
     "code_file": "assets/items/code/ab-locked-cage.py",
