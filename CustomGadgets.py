@@ -28,7 +28,6 @@ class StressMeter(gadgets.Gadget):
 
     def update(self, game, event):
         if self.isActive:
-            print(self.val)
             self.val += self.stressRatePerIteration
             if self.val > 100 and not self.isBroken:
                 self.isBroken = True
