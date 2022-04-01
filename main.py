@@ -25,12 +25,6 @@ class MyGame(terminal.Game):
         self.window.bind("<KeyPress-Right>", "right")
 
 
-myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "Hostel 7 Floor 1")
-myGame.pocket.append(myGame.item("Shoe"))
-myGame.pocket.append(myGame.item("God Mode"))
+myGame = MyGame("Turing Hunt 2022", "assets/settings.json", [gadgets.Clock, gadgets.GPS, CustomGadgets.StressMeter, CustomGadgets.Phone], "H7 Study Room")
 myGame.run()
-
-# Case insensitive; GODMODE keys
-# ['abr', 'abs', 'biswas', 'caf', 'cc', 'gazebo', 'sr', 'phd', 'room', 'hostels', 'labyrinth', 'sc', 'lata', 'lhc', 'road']
-# ["AB Reception", "AB1 AB2", "Sawsib Office", "CAF", "Community Centre", "Gazebo", "H7 Study Room", "PhD Room", "Hostel Room", "Hostels", "Labyrinth", "SC", "Atal Mukherjee's Shop", "LHC", "Road"]
 
