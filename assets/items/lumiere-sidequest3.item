@@ -3,7 +3,7 @@
     "desc": "Would you like to open the equipment storage unit?\n<Security Question> - Look at the image beneath the carpet.",
     "answerhash": "50caca59db4643a804d8708a16e87583",
     "need_input": true,
-    "media_path": "link::https://iiserm.github.io/GTA-Stress-City/S3chdby/SCpdf1.pdf",
+    "media_path": "link::https://james471.github.io/SideQuests/S3chdbySCpdf1.pdf",
     "code_file": "assets/items/code/lumiere-sidequest3.py",
     "collectable": false,
     "char": "⌨"
