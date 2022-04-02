@@ -5,23 +5,23 @@ This is a Virtual Treasure Hunt game hosted by the Turing Club, made using a cus
 
 ## Primary
 
-- [ ] Build the world with maps of all areas
-    - [ ] Link maps via transitions
-    - [ ] Make mini-map tool to see current location relative to the entire world 
-- [ ] Collate a list of clue-essential items
-    - [ ] Create media files for clue items
-    - [ ] Code the behaviour and location of items
-- [ ] Sample playtest to debug
+- [X] Build the world with maps of all areas
+    - [X] Link maps via transitions
+    - [ ] ~~Make mini-map tool to see current location relative to the entire world~~
+- [X] Collate a list of clue-essential items
+    - [X] Create media files for clue items
+    - [X] Code the behaviour and location of items
+- [X] Sample playtest to debug
 
 ## Secondary 
 
-- [ ] Collate a list of non-essential fluff (world-building) items/NPCs
-    - [ ] Code the behaviour and location of items
-- [ ] Bug [Dhruva](https://github.com/DhruvaSambrani) to implement save states
+- [X] Collate a list of non-essential fluff (world-building) items/NPCs
+    - [X] Code the behaviour and location of items
+- [ ] ~~Bug [Dhruva](https://github.com/DhruvaSambrani) to implement save states~~
 
 ## Misc. - not sure if necessary
 
-- [ ] Implement diagonal player movement
+- [ ] ~~Implement diagonal player movement~~
 
 # Developing
 
