@@ -33,7 +33,7 @@ class StressMeter(gadgets.Gadget):
                 self.isBroken = True
                 sg.popup_no_buttons("Stress levels have surpassed 100%. Your Stress Meter broke down.",
                                     auto_close=True, auto_close_duration=3, no_titlebar=True, modal=True)
-            elif self.val > 100 and self.isBroken and self.val%5 == 0:
+            elif self.val > 100 and self.isBroken and self.val%3 == 0:
                 sg.popup_no_buttons(self.stress_saying(), auto_close = True, auto_close_duration = 2, no_titlebar = True, modal = True)
             else:
                 game.window[self.name.lower()].UpdateBar(self.val)
